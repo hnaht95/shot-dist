@@ -2,5 +2,34 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Shot</title>
+        <item>
+            <title>0.5.0</title>
+            <pubDate>Mon, 21 Sep 2026 14:15:56 +0700</pubDate>
+            <sparkle:version>111</sparkle:version>
+            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<h2>Shot 0.5.0</h2>
+
+
+<p>Từ bản này Shot tự biết có bản mới, và menu trên thanh menu được vẽ lại.</p>
+
+<p>## Thay đổi</p>
+
+<li>**Tự cập nhật.** Shot thỉnh thoảng tự tìm bản mới và chỉ lên tiếng khi thật sự có. Muốn hỏi ngay thì dùng "Kiểm tra bản mới…" trong menu, hoặc Cài đặt › Giới thiệu, nơi có thêm công tắc tự động kiểm tra và dòng ghi lần kiểm gần nhất. Bản cài mới được Apple công chứng như cũ, và chữ ký của gói cập nhật được kiểm trước khi cài — tải từ đâu khác về cũng không thay thế được.</li>
+<li>**Menu thanh menu.** Dấu tích chuyển sang bên phải: bật "Sửa nhanh" không còn đẩy cả cột icon sang ngang nữa. Hai mục là *cài đặt* — Hẹn giờ và Sửa nhanh — không đóng menu khi bấm, nên bật cả hai chỉ cần mở menu một lần. Hàng thưa hơn (26pt), thêm icon cho Cài đặt, Thoát và Kiểm tra bản mới. "Quick Shot" đổi tên thành "Sửa nhanh", đúng tên nó vẫn mang trong Cài đặt.</li>
+<li>**Bảng Lịch sử.** Theo tông màu của app thay vì luôn tối; ở tông sáng nền là #F0F0F0, đủ sẫm hơn ảnh chụp để mỗi thẻ có mép riêng. Bảng nằm cách Dock và thanh menu đúng bằng nhau. Nút thùng rác cạnh nút đóng giờ dọn cả danh sách: ảnh đã lưu vào thư mục của bạn **chuyển vào Thùng rác** (lấy lại được), ảnh chưa lưu bị xoá hẳn — hộp thoại nói rõ từng nhóm kèm số lượng.</li>
+<li>**Lề ảnh chụp cửa sổ** mặc định 32 → 56pt, để ảnh đứng lùi khỏi mép của chính nó chứ không chỉ vừa đủ chứa bóng đổ.</li>
+
+<p>## Cài đặt</p>
+
+<p>Tải `Shot-0.5.0.dmg`, thoát Shot đang chạy, mở DMG rồi kéo Shot vào Applications.</p>
+
+<p>Lần này vẫn phải tải tay: bản 0.4.0 chưa có bộ cập nhật nên không tự nhảy lên được. Từ 0.5.0 trở đi thì Shot tự lo.</p>
+
+<p>Yêu cầu macOS 14 trở lên, chip Apple. App và DMG đã ký Developer ID và được Apple công chứng: mở thẳng được, không cần chuột phải → Open.</p>
+]]></description>
+            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.5.0/Shot-0.5.0.zip" length="2309602" type="application/octet-stream" sparkle:edSignature="rChzzilZ1U/p/cLMEQWHUln/lTK48ziXd9EZVGU3MdzTQ7j5/Vta0IVKcwvD7UOt/wo+g5V6ToVpexoCQPXOCw=="/>
+        </item>
     </channel>
 </rss>
