@@ -3,10 +3,10 @@
     <channel>
         <title>Shot</title>
         <item>
-            <title>0.5.2</title>
-            <pubDate>Mon, 21 Sep 2026 15:31:16 +0700</pubDate>
-            <sparkle:version>118</sparkle:version>
-            <sparkle:shortVersionString>0.5.2</sparkle:shortVersionString>
+            <title>0.5.3</title>
+            <pubDate>Mon, 21 Sep 2026 18:06:22 +0700</pubDate>
+            <sparkle:version>120</sparkle:version>
+            <sparkle:shortVersionString>0.5.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -36,17 +36,13 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<p>Chụp ảnh thì ra đúng thứ đang có trên màn hình, không kèm cửa sổ của Shot.</p>
-<h2>Cửa sổ của Shot không còn chen vào ảnh</h2>
-<p>Bấm phím tắt chụp thì cửa sổ Cài đặt, hay cửa sổ sửa ảnh còn mở từ trước, nhảy lên chắn ngay màn hình đang ngắm và lọt vào ảnh.</p>
-<p>Không phải có thứ gì mở chúng ra. Overlay phải kích hoạt app để nhận bàn phím, vì phím gõ luôn đi vào app đang hoạt động; mà kích hoạt một app thì macOS kéo mọi cửa sổ của app đó lên trước.</p>
-<p>Giờ những cửa sổ đó tự tránh ra trong lúc ngắm, và chỉ quay lại <strong>sau khi ảnh đã chụp xong</strong>, nằm ở dưới cùng đúng chỗ chúng vốn ở. Thẻ ảnh, bảng Lịch sử và ảnh ghim không bị đụng tới: chúng vốn nổi trên mọi app nên kích hoạt chẳng đổi gì, và chúng vẫn nên có mặt trong ảnh chụp màn hình.</p>
-<p>Đánh đổi: hiện chưa chụp được cửa sổ Cài đặt và cửa sổ sửa ảnh của chính Shot.</p>
-<h2>Cài đặt có icon dưới Dock</h2>
-<p>Khi cửa sổ Cài đặt mở, Shot hiện icon dưới Dock và có thanh menu của riêng nó; đóng cửa sổ thì icon biến mất, trở lại là app nằm trên thanh menu như cũ. Nếu vẫn còn cửa sổ sửa ảnh đang mở thì icon ở lại, vì cửa sổ đó cần nó y hệt.</p>
-<p>Kèm theo là menu <strong>Chỉnh sửa</strong> thật sự: Hoàn tác, Cắt, Chép, Dán, Chọn tất cả. Đây không phải trang trí. macOS định tuyến mấy lệnh đó qua chính các mục menu này, nên trước đây <code>⌘V</code> trong ô thư mục lưu hay trong công cụ chữ của trình sửa bấm không ra gì.</p>
+<p>Bản bảo trì. Không có gì trong app thay đổi so với 0.5.2.</p>
+<h2>Chữ ký</h2>
+<p>Bản dựng tại máy phát triển giờ ký bằng đúng chứng chỉ Developer ID mà bản phát hành vẫn dùng.</p>
+<p>macOS gắn quyền Ghi màn hình vào chữ ký của app. Trước đây bản dựng thử và bản phát hành ký bằng hai chứng chỉ khác nhau, nên với macOS đó là hai app khác nhau: cài bản này đè bản kia là quyền Ghi màn hình mất hiệu lực và phải cấp lại. Chuyện này chỉ xảy ra trên máy phát triển, không ảnh hưởng bản bạn tải về.</p>
+<p>Nếu bạn đang dùng 0.5.2 thì không cần cập nhật. Bản này chỉ để số phiên bản khớp với mã nguồn.</p>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.5.2/Shot-0.5.2.zip" length="2312964" type="application/octet-stream" sparkle:edSignature="wumBAbN0IunvPtI0rhxtsKaBvA843WelfZfKnphZEyR8YNWjVFXzWHf/k3RQmH3FLoEKUzwM8GyuTqG4ZtP5AA=="/>
+            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.5.3/Shot-0.5.3.zip" length="2312835" type="application/octet-stream" sparkle:edSignature="Seu/OsKdfB5/FTz1NajxEQyisFUpzqiLz0sa23C4qsvulR+FWR3wUPCnGf6O2761kXBAEz1Jlf+rBYacgiuWBQ=="/>
         </item>
     </channel>
 </rss>
