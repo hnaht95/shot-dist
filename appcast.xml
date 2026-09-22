@@ -3,10 +3,10 @@
     <channel>
         <title>Shot</title>
         <item>
-            <title>0.5.4</title>
-            <pubDate>Tue, 22 Sep 2026 13:12:55 +0700</pubDate>
-            <sparkle:version>125</sparkle:version>
-            <sparkle:shortVersionString>0.5.4</sparkle:shortVersionString>
+            <title>0.5.5</title>
+            <pubDate>Tue, 22 Sep 2026 17:37:57 +0700</pubDate>
+            <sparkle:version>128</sparkle:version>
+            <sparkle:shortVersionString>0.5.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -36,16 +36,13 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<p>Chụp ra đúng thứ đang có trên màn hình, kể cả menu đang mở và vùng chọn trong app khác.</p>
-<h2>Chụp không còn cướp tiêu điểm</h2>
-<p>Trước đây Shot phải kích hoạt chính nó để đưa dấu ngắm lên, mà một nửa những gì bạn thấy trên màn hình chỉ được vẽ khi app của nó đang ở phía trước. Vùng chọn trong Photoshop mất đường kiến bò và thanh công cụ nổi; menu đang mở thì đóng lại; mọi cửa sổ Shot đang mở đều nhảy lên chắn màn hình sắp chụp.</p>
-<p>Giờ overlay không kích hoạt app nào nữa, và <strong>màn hình được đóng băng ngay khi bấm phím tắt</strong>, mất khoảng 14ms, chưa tới một khung hình, nên bạn không cảm nhận được. Ảnh cắt ra từ bản đóng băng đó, nên nó đúng bằng những gì có trên màn hình tại khoảnh khắc bạn bấm phím, không phải lúc bạn thả chuột.</p>
-<p>Vì thế chụp được cả <strong>menu đang mở</strong>, thứ mà không app nào chụp được nếu không đóng băng: menu đóng ngay khi có cú bấm chuột bất kỳ, và đó là luật của macOS.</p>
-<p>Hai trường hợp vẫn chụp trực tiếp: khi hẹn giờ, và khi bật "Hiện con trỏ trong ảnh".</p>
-<h2>Sửa lỗi</h2>
-<ul><li><strong>Trình sửa ảnh giữ lại nét vẽ khi lưu thất bại.</strong> Trước đây bấm Xong là cửa sổ đóng dù ghi file có lỗi hay không, mà ghi file là ghi đè nguyên tử nên trên đĩa vẫn là ảnh gốc chưa sửa. Đĩa đầy hoặc thư mục lưu bị đổi tên là mất sạch nét vẽ, không một tiếng động. Giờ cửa sổ ở lại.</li><li><strong>Hoàn tác cắt ảnh trả lại cả phần lề.</strong> Cắt rồi hoàn tác thì ảnh về như cũ nhưng lề và bóng đổ đã mất, và bấm Xong sẽ ghi ra file nhỏ hơn file ban đầu.</li><li><strong>Bấm Xong đóng đúng cửa sổ của nó.</strong> Nếu bạn chụp tiếp trong lúc ảnh trước còn đang ghi, cửa sổ sửa ảnh mới có thể bị đóng thay.</li><li><strong>Bo góc vùng chọn cửa sổ đúng trên macOS 15.</strong> Nó đang được vẽ tròn gấp đôi thực tế.</li><li><strong>Hai công cụ trong trình sửa hiện lại trên macOS 14</strong> (làm nhoè ô và vùng sáng), trước đó là hai ô trống.</li><li><strong>Về mặc định phím tắt trả lại ⇧⌘3 và ⇧⌘4 cho macOS.</strong> Trước đây hai phím này bị tắt và không ai giữ, tồn tại qua cả khởi động lại lẫn gỡ app.</li><li><strong>Ảnh sửa xong thì Lịch sử biết nó đã đổi.</strong> Cắt ảnh trong trình sửa rồi bấm Xong, thẻ trong Lịch sử và nút Ghim vẫn đang dùng kích thước cũ, nên hiển thị lệch.</li><li>Sửa một số chỗ có thể làm app tắt đột ngột: con trỏ overlay, cửa sổ ảnh ghim, và việc làm mờ thẻ trong Lịch sử.</li></ul>
+<p>Sửa một lỗi duy nhất, nhưng là lỗi gặp ngay ở lần bấm đầu tiên: chụp từ menu của Shot không có phản hồi.</p>
+<h2>Chụp từ menu trên thanh menu đã chạy lại</h2>
+<p>Bấm vào icon Shot trên thanh menu rồi chọn một kiểu chụp thì không có gì xảy ra. Dấu ngắm chỉ hiện lên sau khi bạn bấm chuột thêm một lần nữa vào đâu đó khác.</p>
+<p>Lỗi này do chính thay đổi của 0.5.4 mang lại. Menu vốn được *nhờ* đóng lại bằng một hiệu ứng mờ dần, và suốt thời gian mờ dần đó macOS giữ vòng lặp sự kiện trong chế độ theo dõi menu, nơi không một phần nào khác của app được chạy. Trước 0.5.4, việc app tự kích hoạt chính nó để chụp đã vô tình cắt đứt chế độ ấy; từ 0.5.4 app không kích hoạt nữa, nên không còn gì cắt nó đi. Giờ menu được *bảo* đóng ngay thay vì được nhờ mờ dần.</p>
+<p>Phím tắt chưa bao giờ dính lỗi này, chỉ khi bấm từ menu.</p>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.5.4/Shot-0.5.4.zip" length="2322676" type="application/octet-stream" sparkle:edSignature="m5H3rOy6gHWgkAreI61knVkgnYrhAzmtEi8H9tgHNRT6VBS/SnvPtoaDv84wK4LBiu6lxVsbSzS2Qz/G4wJlCA=="/>
+            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.5.5/Shot-0.5.5.zip" length="2322732" type="application/octet-stream" sparkle:edSignature="VfkGh5w+mTRwTk5s6OX/GsgJqfDZPYDvLXkhTmLQL2V0xWHoYUiFBitVJhLBh1e1ZJPlKk90haKKbz1Dl5o8Dg=="/>
         </item>
     </channel>
 </rss>
