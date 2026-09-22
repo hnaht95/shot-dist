@@ -3,10 +3,10 @@
     <channel>
         <title>Shot</title>
         <item>
-            <title>0.5.5</title>
-            <pubDate>Tue, 22 Sep 2026 17:37:57 +0700</pubDate>
-            <sparkle:version>128</sparkle:version>
-            <sparkle:shortVersionString>0.5.5</sparkle:shortVersionString>
+            <title>0.5.6</title>
+            <pubDate>Wed, 23 Sep 2026 00:02:36 +0700</pubDate>
+            <sparkle:version>131</sparkle:version>
+            <sparkle:shortVersionString>0.5.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -36,13 +36,15 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<p>Sửa một lỗi duy nhất, nhưng là lỗi gặp ngay ở lần bấm đầu tiên: chụp từ menu của Shot không có phản hồi.</p>
-<h2>Chụp từ menu trên thanh menu đã chạy lại</h2>
-<p>Bấm vào icon Shot trên thanh menu rồi chọn một kiểu chụp thì không có gì xảy ra. Dấu ngắm chỉ hiện lên sau khi bạn bấm chuột thêm một lần nữa vào đâu đó khác.</p>
-<p>Lỗi này do chính thay đổi của 0.5.4 mang lại. Menu vốn được *nhờ* đóng lại bằng một hiệu ứng mờ dần, và suốt thời gian mờ dần đó macOS giữ vòng lặp sự kiện trong chế độ theo dõi menu, nơi không một phần nào khác của app được chạy. Trước 0.5.4, việc app tự kích hoạt chính nó để chụp đã vô tình cắt đứt chế độ ấy; từ 0.5.4 app không kích hoạt nữa, nên không còn gì cắt nó đi. Giờ menu được *bảo* đóng ngay thay vì được nhờ mờ dần.</p>
-<p>Phím tắt chưa bao giờ dính lỗi này, chỉ khi bấm từ menu.</p>
+<p>Vùng chọn cửa sổ giờ ôm đúng góc của chính cửa sổ đó, trên mọi phiên bản macOS.</p>
+<h2>Bo góc vùng chọn đọc từ chính cửa sổ</h2>
+<p>Khi chọn chụp cửa sổ, phần tô màu được bo góc để nói thật rằng ảnh sẽ cắt tới đâu. Nhưng macOS không công bố nó bo cửa sổ bao nhiêu, không API nào trả lời, kể cả SDK macOS 26, nên Shot phải tự đo. Và phép đo đó <strong>chưa từng chạy đúng</strong>, trên bất kỳ phiên bản nào.</p>
+<p>Lý do nằm ở một byte. Ảnh từ hệ thống lưu pixel theo thứ tự đảo, nên thứ Shot đọc suốt nay không phải độ trong suốt mà là <strong>kênh màu xanh lam</strong>. Lỗi này không báo gì cả: cửa sổ tối bị coi là trong suốt rồi bỏ qua, cửa sổ sáng bị coi là đặc rồi trả lời "vuông". Kết quả là app luôn rơi về một con số đoán sẵn: bo quá lớn trên macOS 27, bo sai trên macOS 15.</p>
+<p>Giờ Shot <strong>đo chính cửa sổ con trỏ đang chỉ vào</strong>, thay vì cố đoán một con số chung cho cả hệ điều hành. Cửa sổ nào bo bao nhiêu thì tô đúng bấy nhiêu: cửa sổ thường, cửa sổ toàn màn hình (vuông thật), hay panel tự vẽ hình riêng. Cách này cũng xử lý được macOS 26, nơi bán kính khác nhau tuỳ cửa sổ có thanh công cụ hay không, chỗ mà một con số chung không bao giờ đúng cho tất cả.</p>
+<h2>Sửa lỗi</h2>
+<ul><li><strong>Hai công cụ trong trình sửa không còn phụ thuộc vào macOS.</strong> Che ô vuông và Làm nổi bật từng là hai ô trống trên macOS 14 vì tên biểu tượng Apple đặt chỉ có từ macOS 15. Bản 0.5.4 đã vá bằng cách gọi tên cũ; giờ hình vẽ nằm hẳn trong app, không còn phải trông vào việc Apple giữ tên cũ hoạt động.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.5.5/Shot-0.5.5.zip" length="2322732" type="application/octet-stream" sparkle:edSignature="VfkGh5w+mTRwTk5s6OX/GsgJqfDZPYDvLXkhTmLQL2V0xWHoYUiFBitVJhLBh1e1ZJPlKk90haKKbz1Dl5o8Dg=="/>
+            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.5.6/Shot-0.5.6.zip" length="2325509" type="application/octet-stream" sparkle:edSignature="3hI4ooyikoJa/BcapWkalDwLc02X2R6gxhc6zSqj2XFSDSUhanIeTk9H5ggfoqjy8JJk0sNAAUY1SjFYZHuNAw=="/>
         </item>
     </channel>
 </rss>
