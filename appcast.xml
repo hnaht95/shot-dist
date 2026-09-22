@@ -4,7 +4,7 @@
         <title>Shot</title>
         <item>
             <title>0.5.4</title>
-            <pubDate>Tue, 22 Sep 2026 12:18:12 +0700</pubDate>
+            <pubDate>Tue, 22 Sep 2026 13:12:55 +0700</pubDate>
             <sparkle:version>125</sparkle:version>
             <sparkle:shortVersionString>0.5.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
@@ -45,7 +45,7 @@ code {
 <h2>Sửa lỗi</h2>
 <ul><li><strong>Trình sửa ảnh giữ lại nét vẽ khi lưu thất bại.</strong> Trước đây bấm Xong là cửa sổ đóng dù ghi file có lỗi hay không, mà ghi file là ghi đè nguyên tử nên trên đĩa vẫn là ảnh gốc chưa sửa. Đĩa đầy hoặc thư mục lưu bị đổi tên là mất sạch nét vẽ, không một tiếng động. Giờ cửa sổ ở lại.</li><li><strong>Hoàn tác cắt ảnh trả lại cả phần lề.</strong> Cắt rồi hoàn tác thì ảnh về như cũ nhưng lề và bóng đổ đã mất, và bấm Xong sẽ ghi ra file nhỏ hơn file ban đầu.</li><li><strong>Bấm Xong đóng đúng cửa sổ của nó.</strong> Nếu bạn chụp tiếp trong lúc ảnh trước còn đang ghi, cửa sổ sửa ảnh mới có thể bị đóng thay.</li><li><strong>Bo góc vùng chọn cửa sổ đúng trên macOS 15.</strong> Nó đang được vẽ tròn gấp đôi thực tế.</li><li><strong>Hai công cụ trong trình sửa hiện lại trên macOS 14</strong> (làm nhoè ô và vùng sáng), trước đó là hai ô trống.</li><li><strong>Về mặc định phím tắt trả lại ⇧⌘3 và ⇧⌘4 cho macOS.</strong> Trước đây hai phím này bị tắt và không ai giữ, tồn tại qua cả khởi động lại lẫn gỡ app.</li><li><strong>Ảnh sửa xong thì Lịch sử biết nó đã đổi.</strong> Cắt ảnh trong trình sửa rồi bấm Xong, thẻ trong Lịch sử và nút Ghim vẫn đang dùng kích thước cũ, nên hiển thị lệch.</li><li>Sửa một số chỗ có thể làm app tắt đột ngột: con trỏ overlay, cửa sổ ảnh ghim, và việc làm mờ thẻ trong Lịch sử.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.5.4/Shot-0.5.4.zip" length="2320842" type="application/octet-stream" sparkle:edSignature="JOejR7n/FlaKJkgtLfoqUOd3JyDc7UcP2tkGkakePmt/H5IWRLrjJ6rfcpnyOqnZqKfi899XcmLQUmgtTv+tCg=="/>
+            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.5.4/Shot-0.5.4.zip" length="2322676" type="application/octet-stream" sparkle:edSignature="m5H3rOy6gHWgkAreI61knVkgnYrhAzmtEi8H9tgHNRT6VBS/SnvPtoaDv84wK4LBiu6lxVsbSzS2Qz/G4wJlCA=="/>
         </item>
     </channel>
 </rss>
