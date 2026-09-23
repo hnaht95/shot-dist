@@ -3,10 +3,10 @@
     <channel>
         <title>Shot</title>
         <item>
-            <title>0.5.8</title>
-            <pubDate>Wed, 23 Sep 2026 16:29:24 +0700</pubDate>
-            <sparkle:version>135</sparkle:version>
-            <sparkle:shortVersionString>0.5.8</sparkle:shortVersionString>
+            <title>0.5.9</title>
+            <pubDate>Wed, 23 Sep 2026 17:23:42 +0700</pubDate>
+            <sparkle:version>138</sparkle:version>
+            <sparkle:shortVersionString>0.5.9</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -36,20 +36,15 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<p>Quét chữ từ bất kỳ đâu trên màn hình, và thanh công cụ vẽ riêng cho Shot.</p>
-<h2>Quét chữ</h2>
-<p>Kéo một vùng quanh chữ bất kỳ trên màn hình, Shot đọc chữ trong vùng đó và hiện ngay một ô ở phía trên vùng vừa kéo (hoặc phía dưới nếu trên hết chỗ). Bấm <strong>Sao chép</strong> hay Return là chữ vào bộ nhớ tạm; bấm <strong>Chỉnh sửa</strong> nếu muốn sửa trước khi chép.</p>
-<p>Đọc được tiếng Việt đủ dấu, lẫn tiếng Anh trên cùng một dòng, và không cần mạng.</p>
-<p>Có hai cách dùng:</p>
-<ul><li><strong>Quét chữ</strong> trong menu của Shot, hoặc phím tắt <strong>⌃⇧6</strong> (đổi được trong Cài đặt).</li><li>Công cụ <strong>Quét chữ</strong> trong trình sửa ảnh, phím <strong>E</strong>: kéo một khung lên ảnh đang sửa. Kéo khung khác hay chỉnh lại khung là Shot đọc lại.</li></ul>
-<p>Dòng chữ bị ngắt chỉ vì hết lề được nối lại thành đoạn, nên dán ra câu không bị cắt ngang giữa chừng. Chỗ xuống dòng thật, gạch đầu dòng, danh sách đánh số và code thì giữ nguyên. Trong ô, mỗi chỗ xuống dòng thật được cách ra một chút, để phân biệt với dòng chỉ bị ngắt vì ô hẹp.</p>
-<p>Không có gì được lưu lại: không tạo tệp, không vào lịch sử chụp.</p>
-<h2>Thanh công cụ vẽ riêng cho Shot</h2>
-<p>Mười bốn công cụ cùng hai nút Hoàn tác và Làm lại giờ là hình vẽ riêng của Shot, nằm sẵn trong app thay vì mượn biểu tượng của macOS. Thanh công cụ vì thế giống hệt nhau trên mọi phiên bản macOS, từ 14 trở lên.</p>
-<h2>Thay đổi khác</h2>
-<ul><li><strong>Làm nổi bật bo góc rõ hơn.</strong> Góc vùng sáng giờ bo 8 điểm. Trước đây độ bo tính theo kích thước vùng, nên với một vùng cỡ đoạn văn chỉ còn ba bốn điểm, nhìn gần như góc vuông.</li></ul>
+<p>Chụp cửa sổ không còn làm Shot đứng im, và chụp được cửa sổ xem nhanh (Quick Look).</p>
+<h2>Chụp cửa sổ không còn làm Shot đứng im</h2>
+<p>Ở chế độ chụp cửa sổ, rê chuột lên một cửa sổ có nhiều cửa sổ khác đè lên, ví dụ một video lớn nằm dưới cả chục cửa sổ Finder, có thể làm Shot đứng im tới nửa phút: không chụp được, phím tắt và menu cũng không phản hồi.</p>
+<p>Để vùng sáng ôm đúng góc bo của từng cửa sổ, Shot đọc góc của cửa sổ đang chỉ vào và của mọi cửa sổ đè lên nó. Cửa sổ nào chưa trả lời thì lại bị hỏi thêm mỗi lần vùng sáng được vẽ lại, chồng lên nhau thành hàng trăm lần đọc, chiếm hết các luồng xử lý mà chính việc chụp cũng cần. Giờ mỗi cửa sổ chỉ được đọc một lần, lần lượt từng cái, trên một hàng riêng không dính tới việc chụp.</p>
+<h2>Chụp được cửa sổ Quick Look</h2>
+<p>Cửa sổ xem nhanh mở bằng phím Space trong Finder là một cửa sổ nổi, và trước đây Shot bỏ qua mọi cửa sổ nổi của app khác: rê chuột lên thì vùng sáng rơi xuống cửa sổ nằm phía sau. Giờ Shot chọn được cả cửa sổ nổi như Quick Look hay các bảng công cụ nổi.</p>
+<p>Dock, thanh menu, menu, chú thích và những lớp phủ luôn nằm trên màn hình thì vẫn được bỏ qua như cũ, để không chắn cửa sổ bên dưới.</p>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.5.8/Shot-0.5.8.zip" length="2407247" type="application/octet-stream" sparkle:edSignature="Xn8/d14ZqU8hRkQEhbdTuZHNOUTwMkzxVVB0b6fQTQDJcJG7J2+9Xs+MLKlWhWF/pwdzcAACgAMQ4ig0Aac0Bg=="/>
+            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.5.9/Shot-0.5.9.zip" length="2411548" type="application/octet-stream" sparkle:edSignature="TAG/DUIC5PuE6uOejAqS0ky26uJl5jpNdHjn/N/dNcEFOwM6mM6C+ghosEcE4/7Tk3+ip4mx1A22+1TeJbBnCw=="/>
         </item>
     </channel>
 </rss>
