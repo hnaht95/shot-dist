@@ -3,10 +3,10 @@
     <channel>
         <title>Shot</title>
         <item>
-            <title>0.6.1</title>
-            <pubDate>Thu, 24 Sep 2026 15:42:51 +0700</pubDate>
-            <sparkle:version>150</sparkle:version>
-            <sparkle:shortVersionString>0.6.1</sparkle:shortVersionString>
+            <title>0.6.2</title>
+            <pubDate>Thu, 24 Sep 2026 15:52:32 +0700</pubDate>
+            <sparkle:version>152</sparkle:version>
+            <sparkle:shortVersionString>0.6.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -36,16 +36,11 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<p>Sửa nhanh trên màn hình gọn gàng với mọi vùng chụp, nền tối rõ hơn khi kéo vùng, và viền chọn nét bút dạ quang đúng hình.</p>
-<h2>Các thanh luôn cân đối với vùng chụp</h2>
-<p>Ở chế độ Sửa nhanh trên màn hình, dù vùng kéo nhỏ hay lớn, dài hay dẹt, ở giữa, sát mép hay ở góc màn hình, các thanh công cụ luôn nằm trong màn hình, không chồng lên nhau, không đè lên vùng khi bên ngoài còn chỗ, và đứng sát vùng.</p>
-<ul><li><strong>Vùng hẹp:</strong> thanh công cụ gập hai hàng, các nút Chép, Lưu thành, Chia sẻ, Ghim, Huỷ và Xong dựng dọc bên phải.</li><li><strong>Vùng thấp:</strong> cột màu và cỡ nét nằm ngang dưới vùng, gập hai tầng nếu vùng hẹp, các nút nằm ngang cạnh nó.</li><li><strong>Vùng sát mép trái hay phải:</strong> các thanh dồn về phía xa mép, mỗi thanh một cạnh.</li><li><strong>Vùng ở góc màn hình:</strong> các thanh xếp chồng gọn bên dưới hoặc bên trên vùng.</li><li><strong>Vùng cao gần kín màn hình:</strong> thanh công cụ đứng bên cạnh, ngang mép trên của vùng.</li><li>Thanh nào rộng hơn hay cao hơn vùng thì nằm giữa vùng, không lệch hẳn sang một bên.</li></ul>
-<h2>Nền tối hơn khi kéo vùng</h2>
-<p>Phần màn hình quanh vùng đang kéo giờ tối 60% thay vì 45%, vùng chọn nổi hẳn lên. Vùng tối khi quay vùng và khi sửa ngay trên màn hình cũng vậy.</p>
-<h2>Viền chọn nét bút dạ quang</h2>
-<p>Chọn một nét bút dạ quang, bằng công cụ Chọn hay bấm giữ ⌘, giờ hiện một đường viền mảnh bao quanh, cách nét đều và vát ở hai đầu đúng như đầu bút. Trước đây nét bị tô kín màu tím thay vì có đường viền như các công cụ khác.</p>
+<p>Các nút quanh vùng khi Sửa nhanh trên màn hình phản hồi rõ hơn khi rê chuột và khi nhấn.</p>
+<h2>Nút phản hồi khi rê chuột và khi nhấn</h2>
+<ul><li><strong>Nút Xong</strong> đậm màu hơn khi rê chuột lên, như nút Xong trong cửa sổ sửa. Trước đây nó đứng yên.</li><li><strong>Chép, Lưu thành, Chia sẻ, Ghim, Huỷ và Xong</strong> lún xuống một chút và đậm lên khi nhấn giữ, nhả ra thì bật về, để biết chắc cú nhấn đã ăn.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.6.1/Shot-0.6.1.zip" length="2602106" type="application/octet-stream" sparkle:edSignature="u8dh7AJi5Ady/7SU7rH+u74UestaDenwbuSYF6kSuCedPxo3Q7W47M9bvWk/n27Dxw8ovkRZmyRoeejvQM7gBQ=="/>
+            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.6.2/Shot-0.6.2.zip" length="2605582" type="application/octet-stream" sparkle:edSignature="e3q9fgTMvuRpBaDcUkXRTiKfCCAHlJvM4gbvMZv7YSsGZM964DgwydVDX8qagZpmne8kKthH0/elvIdIa7FnCA=="/>
         </item>
     </channel>
 </rss>
