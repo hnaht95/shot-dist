@@ -3,10 +3,10 @@
     <channel>
         <title>Shot</title>
         <item>
-            <title>0.5.9</title>
-            <pubDate>Wed, 23 Sep 2026 17:23:42 +0700</pubDate>
-            <sparkle:version>138</sparkle:version>
-            <sparkle:shortVersionString>0.5.9</sparkle:shortVersionString>
+            <title>0.6.0</title>
+            <pubDate>Thu, 24 Sep 2026 14:31:20 +0700</pubDate>
+            <sparkle:version>146</sparkle:version>
+            <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -36,15 +36,25 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<p>Chụp cửa sổ không còn làm Shot đứng im, và chụp được cửa sổ xem nhanh (Quick Look).</p>
-<h2>Chụp cửa sổ không còn làm Shot đứng im</h2>
-<p>Ở chế độ chụp cửa sổ, rê chuột lên một cửa sổ có nhiều cửa sổ khác đè lên, ví dụ một video lớn nằm dưới cả chục cửa sổ Finder, có thể làm Shot đứng im tới nửa phút: không chụp được, phím tắt và menu cũng không phản hồi.</p>
-<p>Để vùng sáng ôm đúng góc bo của từng cửa sổ, Shot đọc góc của cửa sổ đang chỉ vào và của mọi cửa sổ đè lên nó. Cửa sổ nào chưa trả lời thì lại bị hỏi thêm mỗi lần vùng sáng được vẽ lại, chồng lên nhau thành hàng trăm lần đọc, chiếm hết các luồng xử lý mà chính việc chụp cũng cần. Giờ mỗi cửa sổ chỉ được đọc một lần, lần lượt từng cái, trên một hàng riêng không dính tới việc chụp.</p>
-<h2>Chụp được cửa sổ Quick Look</h2>
-<p>Cửa sổ xem nhanh mở bằng phím Space trong Finder là một cửa sổ nổi, và trước đây Shot bỏ qua mọi cửa sổ nổi của app khác: rê chuột lên thì vùng sáng rơi xuống cửa sổ nằm phía sau. Giờ Shot chọn được cả cửa sổ nổi như Quick Look hay các bảng công cụ nổi.</p>
-<p>Dock, thanh menu, menu, chú thích và những lớp phủ luôn nằm trên màn hình thì vẫn được bỏ qua như cũ, để không chắn cửa sổ bên dưới.</p>
+<p>Quay màn hình, và Sửa nhanh ngay trên màn hình.</p>
+<h2>Quay màn hình</h2>
+<p>Shot giờ quay được màn hình thành video MP4, chọn chỗ quay y như lúc chụp.</p>
+<ul><li><strong>Quay vùng</strong>, phím tắt <strong>⌃⇧7</strong>: kéo một vùng, bấm vào một cửa sổ, hoặc nhấn Space để chọn cửa sổ.</li><li><strong>Quay cả màn hình</strong>, phím tắt <strong>⌃⇧8</strong>: quay màn hình đang có con trỏ.</li></ul>
+<p>Khi quay vùng, phần ngoài vùng tối lại như lúc kéo vùng, và ngay dưới vùng có dải nút tạm dừng, dừng và đồng hồ. Trên thanh menu, biểu tượng Shot thành nút dừng màu đỏ kèm thời gian đã quay, bấm vào là dừng. Nhấn lại phím tắt quay cũng là dừng.</p>
+<p>Thu âm thanh máy, thu micro và hiện con trỏ chuột bật tắt nhanh được trong <strong>Tuỳ chọn quay</strong> ở menu, hoặc trong Cài đặt cùng với số khung hình mỗi giây (30 hoặc 60). Lần đầu thu micro, macOS sẽ hỏi quyền. Hẹn giờ cũng dùng được khi quay.</p>
+<p>Quay xong, video được lưu vào thư mục lưu ảnh, vào lịch sử chụp, và hiện thẻ như ảnh chụp, có ghi thời lượng. Bấm vào thẻ để xem và cắt bớt đầu đuôi ngay trong trình xem của macOS. Đang bật chép vào bộ nhớ tạm thì tệp video được chép, dán vào Finder, tin nhắn hay thư là ra video.</p>
+<h2>Sửa nhanh có hai kiểu</h2>
+<p>Chọn trong <strong>Sửa nhanh</strong> ở menu, hoặc trong Cài đặt: <strong>Cửa sổ sửa</strong> như trước, hoặc <strong>Trên màn hình</strong>.</p>
+<p>Với <strong>Trên màn hình</strong>, kéo xong một vùng thì vùng đó đứng yên tại chỗ và đủ công cụ của trình sửa hiện ngay quanh nó: công cụ ở trên, màu và cỡ nét bên trái, các nút Chép, Lưu thành, Chia sẻ, Ghim, Huỷ và Xong ở bên phải. Cắt ảnh làm vùng co lại ngay tại chỗ, Quét chữ đọc chữ trong vùng.</p>
+<ul><li><strong>Enter</strong> hoặc nút Xong: lưu và chép theo cài đặt rồi xong luôn, không hiện thẻ.</li><li><strong>⌘C</strong> hoặc nút Chép: chép ảnh đang vẽ, nút chuyển thành dấu tích xanh như trên thẻ ảnh.</li><li><strong>Esc</strong>: đang gõ chữ thì chốt chữ trước, nhấn tiếp mới huỷ.</li></ul>
+<p>Các thanh tự xếp theo vùng. Vùng nhỏ thì thanh công cụ gập hai hàng, cột màu gập hai cột, các nút dựng dọc bên phải. Vùng sát mép hay nằm ở góc màn hình thì mỗi thanh chuyển sang một cạnh còn trống, và thanh nào rộng hơn vùng thì nằm giữa vùng.</p>
+<p>Chụp cửa sổ, cả màn hình, chụp lại vùng cũ hay chụp có hẹn giờ thì vẫn mở cửa sổ sửa.</p>
+<h2>Trình sửa ảnh</h2>
+<ul><li><strong>⌘C</strong> chép ngay ảnh đang sửa, nút Chép nháy lên và đổi thành Đã chép.</li><li><strong>Enter</strong> là Xong: lưu rồi đóng cửa sổ sửa. Đang gõ chữ thì Enter đầu tiên chốt chữ.</li><li>Sửa nhanh mở cửa sổ sửa nhanh hơn: cửa sổ hiện ngay với ảnh vừa chụp, không còn hiệu ứng phóng to.</li></ul>
+<h2>Thay đổi khác</h2>
+<ul><li><strong>Vùng chụp bo góc.</strong> Vùng đang kéo có góc bo 8 điểm, và ảnh chụp vùng lưu ra cũng bo đúng như vậy.</li><li><strong>Hết đường góc vuông lúc kéo vùng.</strong> Góc bo không còn lộ một đường viền vuông bên ngoài, và vùng không nhích thêm một điểm lúc nhả chuột.</li><li><strong>Menu gọn hơn.</strong> Quay vùng và Quay cả màn hình dùng đúng icon của hai mục chụp tương ứng, thêm một chấm tròn ở góc. Tuỳ chọn quay có icon mới.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.5.9/Shot-0.5.9.zip" length="2411548" type="application/octet-stream" sparkle:edSignature="TAG/DUIC5PuE6uOejAqS0ky26uJl5jpNdHjn/N/dNcEFOwM6mM6C+ghosEcE4/7Tk3+ip4mx1A22+1TeJbBnCw=="/>
+            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.6.0/Shot-0.6.0.zip" length="2586291" type="application/octet-stream" sparkle:edSignature="rigWyZnBAXqvu9CcOejOgYgPSxAjWz1RNDeAMg3Ox8IqE42cqLnntuwEecn3apgUbOduJX9TC9dismhBVZSgBQ=="/>
         </item>
     </channel>
 </rss>
