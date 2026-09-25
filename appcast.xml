@@ -3,10 +3,10 @@
     <channel>
         <title>Shot</title>
         <item>
-            <title>0.6.2</title>
-            <pubDate>Thu, 24 Sep 2026 15:52:32 +0700</pubDate>
-            <sparkle:version>152</sparkle:version>
-            <sparkle:shortVersionString>0.6.2</sparkle:shortVersionString>
+            <title>0.6.3</title>
+            <pubDate>Fri, 25 Sep 2026 11:52:02 +0700</pubDate>
+            <sparkle:version>157</sparkle:version>
+            <sparkle:shortVersionString>0.6.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -36,11 +36,15 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<p>Các nút quanh vùng khi Sửa nhanh trên màn hình phản hồi rõ hơn khi rê chuột và khi nhấn.</p>
-<h2>Nút phản hồi khi rê chuột và khi nhấn</h2>
-<ul><li><strong>Nút Xong</strong> đậm màu hơn khi rê chuột lên, như nút Xong trong cửa sổ sửa. Trước đây nó đứng yên.</li><li><strong>Chép, Lưu thành, Chia sẻ, Ghim, Huỷ và Xong</strong> lún xuống một chút và đậm lên khi nhấn giữ, nhả ra thì bật về, để biết chắc cú nhấn đã ăn.</li></ul>
+<p>Menu trên thanh menu cùng kiểu với các app khác, Quét chữ chép được bằng ⌘C, và ảnh chụp vùng giờ để góc vuông.</p>
+<h2>Menu trên thanh menu</h2>
+<ul><li><strong>Màu chữ như menu của macOS.</strong> Phím tắt, dấu tích và mũi tên menu con cùng một màu xám với phím tắt của menu gốc, như menu của Hook.</li><li><strong>Menu rộng hơn.</strong> Tên mục không còn sát phím tắt, và phím tắt được viết cách ra như macOS viết: ⇧⌘ 4.</li></ul>
+<h2>Quét chữ</h2>
+<ul><li><strong>⌘C chép chữ luôn.</strong> Không bôi đen gì thì chép toàn bộ chữ và đóng bảng, như nút Sao chép. Bôi đen một đoạn thì chỉ chép đoạn đó. Bấm lúc còn đang đọc thì đọc xong sẽ tự chép.</li></ul>
+<h2>Ảnh chụp</h2>
+<ul><li><strong>Ảnh chụp vùng để góc vuông.</strong> Khung chọn vẫn bo góc trên màn hình, nhưng ảnh lưu ra giữ góc vuông, nên lưu JPEG, cắt ảnh hay thêm viền đều ra đúng.</li><li><strong>Dán vào Photoshop không còn viền trắng</strong> quanh góc bo của ảnh chụp cửa sổ.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.6.2/Shot-0.6.2.zip" length="2605582" type="application/octet-stream" sparkle:edSignature="e3q9fgTMvuRpBaDcUkXRTiKfCCAHlJvM4gbvMZv7YSsGZM964DgwydVDX8qagZpmne8kKthH0/elvIdIa7FnCA=="/>
+            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.6.3/Shot-0.6.3.zip" length="2615480" type="application/octet-stream" sparkle:edSignature="NrY+37/xQukTeCjwWAlQ1istn5IMCe3VXtCpUQv1XneyM33P2prXtXUfW1JyJoiDO2ixB/Wjpj+tMuJn+QFYCA=="/>
         </item>
     </channel>
 </rss>
