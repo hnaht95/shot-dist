@@ -3,10 +3,10 @@
     <channel>
         <title>Shot</title>
         <item>
-            <title>0.6.6</title>
-            <pubDate>Sun, 27 Sep 2026 17:27:57 +0700</pubDate>
-            <sparkle:version>166</sparkle:version>
-            <sparkle:shortVersionString>0.6.6</sparkle:shortVersionString>
+            <title>0.6.7</title>
+            <pubDate>Sun, 27 Sep 2026 19:45:10 +0700</pubDate>
+            <sparkle:version>171</sparkle:version>
+            <sparkle:shortVersionString>0.6.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -36,13 +36,17 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<p>Khung viền của ghi chú giờ trong suốt thật như kính mờ, và chữ dùng SF Pro Regular.</p>
-<h2>Ghi chú cho số thứ tự</h2>
-<ul><li><strong>Khung viền trong suốt như kính mờ.</strong> Phần ảnh bên dưới được làm mờ vừa phải, nhìn xuyên thấy chữ, nút và màu phía sau. Ở bản 0.6.5, khung viền chỉ phủ một lớp trắng hoặc đen lên ảnh nên trông như nền đặc, cả trên màn hình lẫn ảnh đã lưu.</li><li><strong>Chữ luôn đọc được</strong>, kể cả khi khung nằm vắt qua vùng sáng và vùng tối, nhờ một viền mờ nhẹ quanh chữ.</li></ul>
-<h2>Chữ</h2>
-<ul><li><strong>Chữ và ghi chú dùng SF Pro Regular</strong> thay cho SF Pro Bold, mảnh và nhẹ hơn trên ảnh. Chữ đang gõ cũng cùng font nên không đổi dáng khi gõ xong.</li></ul>
+<p>Ghi chú tự đặt quanh số thứ tự và có mũi chỉ vào số, số vẽ bằng bộ icon mới, thêm bảng màu pastel, và mọi nét vẽ cách mép ảnh một khoảng.</p>
+<h2>Số thứ tự và ghi chú</h2>
+<ul><li><strong>Nhấn đúp vào số để viết ghi chú</strong>, hoặc mở ghi chú đã có để sửa. Không còn nút + khi chọn số.</li><li><strong>Ghi chú tự chọn phía</strong>: bên phải nếu còn chỗ, không thì bên trái, bên dưới hoặc bên trên. Kéo số tới gần mép ảnh thì ghi chú tự chuyển phía.</li><li><strong>Mũi chỉ bo tròn</strong> trên khung ghi chú, hướng vào số.</li><li><strong>Số và ghi chú đi cùng nhau</strong>: kéo cái nào cũng di chuyển cả hai.</li><li><strong>Khung ghi chú phẳng</strong>, cùng màu với số, rộng rãi hơn quanh chữ. Chọn ghi chú chỉ hiện chấm tay nắm, không có viền.</li><li><strong>Chữ số vẽ bằng bộ icon mới</strong>, canh giữa theo mắt trong viên tròn.</li><li>Số và chữ mặc định dùng cỡ nhỏ hơn, cỡ thứ hai trong hàng.</li></ul>
+<h2>Màu sắc</h2>
+<ul><li><strong>Hai bảng màu</strong>: màu gốc và màu pastel, chuyển bằng nút ở đầu cột màu. App nhớ bảng màu bạn dùng lần trước.</li><li><strong>Thêm màu hồng</strong>, mỗi bảng có 9 màu.</li><li><strong>Nhớ màu vừa dùng</strong>: mở ảnh mới trong vòng 1 phút sau khi sửa xong ảnh trước thì dùng lại màu đó, quá 1 phút thì về màu đầu bảng.</li><li>Chữ và số trên nền màu nhạt dùng tông đậm của chính màu đó thay cho màu đen.</li></ul>
+<h2>Vẽ trên ảnh</h2>
+<ul><li><strong>Mọi nét vẽ cách mép ảnh một khoảng</strong>, không còn sát mép. Riêng Blur, Pixelate và Spotlight vẫn chạm được mép để che kín.</li><li>Chữ dài tự xuống dòng trước mép ảnh, lúc gõ và sau khi gõ xong giống hệt nhau.</li><li>Sửa lỗi kéo ghi chú xuống sát đáy làm số thứ tự trôi ra ngoài ảnh.</li></ul>
+<h2>Chụp và vẽ ngay trên màn hình</h2>
+<ul><li><strong>Nhấn Esc một lần</strong> để chuyển về công cụ Di chuyển (V), <strong>nhấn nhanh Esc hai lần</strong> mới thoát. Lỡ tay nhấn Esc không còn làm mất vùng chụp và các nét đã vẽ.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.6.6/Shot-0.6.6.zip" length="2645028" type="application/octet-stream" sparkle:edSignature="q1VilRnXTLwXLu3sX7e9qfHt8mosYo9F4vHM9qRpUL9VXLN9rDitkebf23muVVs2gnXoxPk28pr9PaH94dp3Cg=="/>
+            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.6.7/Shot-0.6.7.zip" length="2673091" type="application/octet-stream" sparkle:edSignature="wXpBRHVwxdP5nixZ7R3YGjMRkPZn/AuBcgIrmptuRSd1clP2ig6oL0srrGLHUvvTjdlHUBSEu08ryrn6pfasDA=="/>
         </item>
     </channel>
 </rss>
