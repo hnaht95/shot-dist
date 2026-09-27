@@ -3,10 +3,10 @@
     <channel>
         <title>Shot</title>
         <item>
-            <title>0.6.9</title>
-            <pubDate>Sun, 27 Sep 2026 20:19:17 +0700</pubDate>
-            <sparkle:version>176</sparkle:version>
-            <sparkle:shortVersionString>0.6.9</sparkle:shortVersionString>
+            <title>0.7.0</title>
+            <pubDate>Sun, 27 Sep 2026 21:02:44 +0700</pubDate>
+            <sparkle:version>180</sparkle:version>
+            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -36,11 +36,13 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<p>Icon Shot hiện dưới Dock khi đang sửa ảnh, nên cửa sổ sửa bị app khác che vẫn quay lại được ngay.</p>
-<h2>Cửa sổ sửa ảnh</h2>
-<ul><li><strong>Icon Shot hiện dưới Dock và trong ⌘-Tab</strong> khi cửa sổ sửa ảnh đang mở. Sang app khác rồi muốn quay lại thì bấm icon hoặc dùng ⌘-Tab, không phải thu nhỏ các cửa sổ đang che.</li><li><strong>Bấm icon trên Dock là cửa sổ sửa hiện lên trên cùng</strong>, kể cả khi đã thu nhỏ xuống Dock.</li><li>Đóng cửa sổ sửa thì icon tự ẩn, Shot lại chỉ nằm trên thanh menu như trước. Cài đặt còn mở thì icon ở lại tới khi đóng nốt.</li><li>Cửa sổ xem và cắt video cũng có icon dưới Dock như vậy.</li></ul>
+<p>Cửa sổ Cài đặt làm lại theo kiểu Peek: gọn hơn, chọn bằng ô thả xuống, mỗi phím tắt là một nút.</p>
+<h2>Cửa sổ Cài đặt</h2>
+<ul><li><strong>Ô chọn thả xuống</strong> thay cho hàng nút ngang ở các lựa chọn nhiều giá trị: định dạng ảnh, chất lượng, thời gian thẻ ở lại, cỡ thẻ, sửa nhanh, giữ lịch sử, hẹn giờ, khoảng lề, số khung hình khi quay và tông màu. Danh sách mở ra ngay cạnh cửa sổ, có dấu tích ở lựa chọn đang dùng.</li><li><strong>Ngôn ngữ lên đầu mục Chung</strong>, cùng hàng với Chạy khi đăng nhập.</li><li><strong>Bỏ các tiêu đề nhóm chữ in hoa.</strong> Vài hàng đổi tên cho rõ nghĩa: Giữ lịch sử trong, Lịch sử hiện có, Số khung hình khi quay, Hiện con trỏ trong video quay.</li><li><strong>Chữ mô tả gọn hơn</strong>: chỉ hàng nào cần giải thích mới có, và chữ tự xuống dòng thẳng một mép.</li><li><strong>Góc đặt thẻ</strong>: hình chọn góc to hơn, kèm một dòng chữ nói thẻ đang hiện ở góc nào.</li></ul>
+<h2>Phím tắt</h2>
+<ul><li><strong>Mỗi phím tắt là một nút</strong>, ví dụ ⇧⌘4, thay cho từng phím tách rời.</li><li>Nút sửa phím tắt dùng đúng biểu tượng cây bút của thẻ ảnh.</li><li>Bỏ hàng Huỷ khi đang chụp. Esc vẫn huỷ như cũ, chỉ không còn hiện trong danh sách.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.6.9/Shot-0.6.9.zip" length="2683662" type="application/octet-stream" sparkle:edSignature="HrkiSS+vrraT2lrYxA6lbWNRiwmsx8PeVE8Uph+t7AlOaqcS1xflMTp8oeje7ZJ7iuL0xi8Ddbif+VhVx9xUCQ=="/>
+            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.7.0/Shot-0.7.0.zip" length="2706434" type="application/octet-stream" sparkle:edSignature="herIvJN5JjPY7BdzYTBwSOyP5gDj2ZyHZjoJQuLfhHmKfmRVmOXY+YLUjs2GdFJmzVSVL409jD+wqAFEAfwgCQ=="/>
         </item>
     </channel>
 </rss>
