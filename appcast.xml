@@ -3,10 +3,10 @@
     <channel>
         <title>Shot</title>
         <item>
-            <title>0.6.5</title>
-            <pubDate>Sun, 27 Sep 2026 17:12:15 +0700</pubDate>
-            <sparkle:version>163</sparkle:version>
-            <sparkle:shortVersionString>0.6.5</sparkle:shortVersionString>
+            <title>0.6.6</title>
+            <pubDate>Sun, 27 Sep 2026 17:27:57 +0700</pubDate>
+            <sparkle:version>166</sparkle:version>
+            <sparkle:shortVersionString>0.6.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -36,13 +36,13 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<p>Ghi chú ngay cạnh số thứ tự, không cần quay lại công cụ chữ.</p>
+<p>Khung viền của ghi chú giờ trong suốt thật như kính mờ, và chữ dùng SF Pro Regular.</p>
 <h2>Ghi chú cho số thứ tự</h2>
-<ul><li><strong>Bấm vào một số là hiện nút + ở góc trên bên phải.</strong> Bấm + để gõ ghi chú ngay cạnh số, cùng màu và cỡ với số. Nhấn Enter hoặc bấm ra ngoài là xong, để trống thì không tạo gì.</li><li><strong>Hai kiểu khung, đổi bằng nút tô màu trong dải tuỳ chọn bên phải.</strong> Khung tô màu giống viên số, chữ trắng. Khung viền thì nền làm mờ phần ảnh bên dưới, chữ tự chọn đen hoặc trắng cho dễ đọc. Ghi chú sau dùng luôn kiểu vừa chọn.</li><li><strong>Kéo tay nắm bên phải để chỉnh độ rộng.</strong> Kéo hẹp thì chữ tự xuống dòng, kéo rộng hơn chữ để các ghi chú thẳng hàng với nhau.</li><li><strong>Bấm đúp vào ghi chú để sửa chữ.</strong></li><li><strong>Ghi chú đi theo số.</strong> Kéo số thì ghi chú đi theo, xoá số thì ghi chú mất theo. Đổi màu hay cỡ số thì ghi chú đổi theo và vẫn đứng cạnh số, trừ khi đã chỉnh riêng cho ghi chú.</li></ul>
-<h2>Số thứ tự</h2>
-<ul><li><strong>Chữ số dùng kiểu chữ của hàng phím tắt</strong> dưới thanh công cụ, và nhỏ hơn một chút so với trước.</li></ul>
+<ul><li><strong>Khung viền trong suốt như kính mờ.</strong> Phần ảnh bên dưới được làm mờ vừa phải, nhìn xuyên thấy chữ, nút và màu phía sau. Ở bản 0.6.5, khung viền chỉ phủ một lớp trắng hoặc đen lên ảnh nên trông như nền đặc, cả trên màn hình lẫn ảnh đã lưu.</li><li><strong>Chữ luôn đọc được</strong>, kể cả khi khung nằm vắt qua vùng sáng và vùng tối, nhờ một viền mờ nhẹ quanh chữ.</li></ul>
+<h2>Chữ</h2>
+<ul><li><strong>Chữ và ghi chú dùng SF Pro Regular</strong> thay cho SF Pro Bold, mảnh và nhẹ hơn trên ảnh. Chữ đang gõ cũng cùng font nên không đổi dáng khi gõ xong.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.6.5/Shot-0.6.5.zip" length="2641016" type="application/octet-stream" sparkle:edSignature="UaUd7LxlsIlunARUeeFQjtRCItWs3u+YJknjkKLc+z3MGb4eHy92TKgdLcQyKPCqqUI76PkfC3p9QhRGLao/DA=="/>
+            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.6.6/Shot-0.6.6.zip" length="2645028" type="application/octet-stream" sparkle:edSignature="q1VilRnXTLwXLu3sX7e9qfHt8mosYo9F4vHM9qRpUL9VXLN9rDitkebf23muVVs2gnXoxPk28pr9PaH94dp3Cg=="/>
         </item>
     </channel>
 </rss>
