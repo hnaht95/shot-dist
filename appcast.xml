@@ -3,10 +3,10 @@
     <channel>
         <title>Shot</title>
         <item>
-            <title>0.7.1</title>
-            <pubDate>Mon, 28 Sep 2026 11:03:01 +0700</pubDate>
-            <sparkle:version>184</sparkle:version>
-            <sparkle:shortVersionString>0.7.1</sparkle:shortVersionString>
+            <title>0.7.2</title>
+            <pubDate>Mon, 28 Sep 2026 12:27:18 +0700</pubDate>
+            <sparkle:version>187</sparkle:version>
+            <sparkle:shortVersionString>0.7.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -36,15 +36,13 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<p>Chữ có nền và mũi tên chỉ như bong bóng thoại, Esc trên màn hình đi từng bước, ghi chú giữ cỡ riêng của nó.</p>
+<p>Ghi chú của số thứ tự giữ nguyên phía, đổi phía bằng tam giác quanh số hoặc bằng vạch chỉnh độ rộng.</p>
+<h2>Số thứ tự và ghi chú</h2>
+<ul><li><strong>Tam giác quanh số</strong>: chọn số hoặc ghi chú của nó thì có tam giác nhỏ ở mỗi phía còn trống: trái, phải, trên, dưới. Bấm vào tam giác nào thì ghi chú chuyển sang phía đó. Rê chuột lên thì tam giác đậm lên. Tam giác không có trong ảnh xuất ra.</li><li><strong>Kéo vạch qua số</strong>: nắm vạch chỉnh độ rộng của ghi chú kéo qua giữa số là ghi chú sang phía bên kia, mép xa bám theo tay.</li><li><strong>Ghi chú giữ phía</strong>: kéo số tới gần mép thì ghi chú không còn tự nhảy sang phía bên kia, cả hai dừng lại khi ghi chú chạm mép. Lúc gõ thêm chữ hay đổi cỡ số, ghi chú cũng giữ phía và tự xuống dòng khi hết chỗ.</li><li>Ghi chú đứng xa số hơn một chút, vòng chọn quanh số không còn chạm vào mũi ghi chú.</li></ul>
 <h2>Chữ</h2>
-<ul><li><strong>Chữ có nền</strong>: công cụ Chữ có ba lựa chọn trên cột tùy chọn: chữ không nền, chữ có nền, và chữ có nền kèm mũi tên. Mặc định là có nền. Có nền thì màu chọn là màu nền, chữ tự lấy màu dễ đọc trên nền đó; không nền thì màu chọn là màu chữ.</li><li><strong>Mũi tên như bong bóng thoại</strong>: bật lên là có ngay một mũi ngắn chĩa xuống. Kéo chấm ở đầu mũi để chỉ về phía nào cũng được, mũi tên tự mọc từ cạnh hướng về phía đó và chỉ nhô ra một chút. Mũi tên luôn hiện, kể cả khi thả chấm vào trong khung; muốn bỏ thì chọn lại nút chữ có nền.</li><li>Mũi tên bo tròn ở đầu và ở chỗ nối với khung, chân rộng bằng cỡ chữ. Kéo khung thì mũi tên đi theo.</li><li>Đang gõ mà đổi màu, cỡ chữ, nền hay mũi tên thì chữ đang gõ đổi theo ngay.</li><li><strong>Tay chỉnh độ rộng</strong> hai bên khung chữ giờ là vạch dọc mảnh, sát khung. Vạch ở phía mũi tên chĩa ra tự mờ đi cho gọn.</li></ul>
-<h2>Số thứ tự</h2>
-<ul><li>Đổi cỡ số không còn đổi cỡ ghi chú bên cạnh. Màu vẫn luôn đi cùng nhau.</li><li>Mũi nhỏ của ghi chú chỉ vào số cũng được bo tròn ở đầu và chỗ nối.</li></ul>
-<h2>Chụp và vẽ ngay trên màn hình</h2>
-<ul><li><strong>Esc đi từng bước</strong>: lần đầu về công cụ Di chuyển (V) và bỏ chọn, lần nữa thì thoát, bấm nhanh hay chậm đều được. Đang gõ chữ thì một lần Esc vừa chốt chữ vừa về V.</li></ul>
+<ul><li>Thu hẹp khung chữ hay ghi chú tới mức chữ xuống nhiều dòng thì khung dừng ở độ rộng vừa chiều cao ảnh, không còn dài xuống rồi bị cắt ở đáy.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.7.1/Shot-0.7.1.zip" length="2740059" type="application/octet-stream" sparkle:edSignature="22NPGS7+Rz8JKIPunKfA7VDjcoF5lfybu4xmK/wVcdk7avRxb+ihHlKbvbaB0U3TzysrTdKU6XAWb5v/DHKMDw=="/>
+            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.7.2/Shot-0.7.2.zip" length="2748634" type="application/octet-stream" sparkle:edSignature="LtvQRrZbvB4hT4grbu3nMOaH79Sk6g/CdsWmY7Yv9xUsFU/BJvNk8NdG/inI/hZZT8piA2bB10YXILMcHmPiAA=="/>
         </item>
     </channel>
 </rss>
