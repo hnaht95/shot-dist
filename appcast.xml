@@ -3,10 +3,10 @@
     <channel>
         <title>Shot</title>
         <item>
-            <title>0.7.8</title>
-            <pubDate>Mon, 28 Sep 2026 21:54:52 +0700</pubDate>
-            <sparkle:version>205</sparkle:version>
-            <sparkle:shortVersionString>0.7.8</sparkle:shortVersionString>
+            <title>0.7.9</title>
+            <pubDate>Mon, 28 Sep 2026 23:49:32 +0700</pubDate>
+            <sparkle:version>208</sparkle:version>
+            <sparkle:shortVersionString>0.7.9</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -36,11 +36,11 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<p>Esc về công cụ Di chuyển (V) mà vẫn giữ chọn thứ vừa vẽ.</p>
+<p>Màu đen ở cột màu dễ thấy hơn, và cỡ nét trên ảnh chụp Retina không còn đổi theo màn hình đang cắm.</p>
 <h2>Cửa sổ sửa ảnh</h2>
-<ul><li><strong>Esc giữ chọn thứ vừa vẽ</strong>: đang cầm công cụ vẽ mà nhấn Esc thì Shot về Di chuyển (V) và chọn sẵn thứ vừa vẽ, như chữ vừa gõ hay mũi tên vừa kéo, để chỉnh tiếp ngay. Không có gì đang chọn thì Shot chọn nét mới nhất. Nhấn Esc lần nữa thì bỏ chọn.</li></ul>
+<ul><li><strong>Màu đen nhìn rõ hơn</strong>: ở chế độ tối, ô màu đen trong cột màu có viền mảnh để không lẫn vào nền. Ở chế độ sáng, ô màu trắng cũng vậy. Các màu khác giữ nguyên.</li><li><strong>Cỡ nét đúng trên ảnh chụp Retina</strong>: mở lại ảnh chụp từ màn hình lớn trên máy có màn hình nhỏ hơn thì nét vẽ mới không còn to hơn nét cũ. Ảnh từ điện thoại vẫn có nét cỡ vừa mắt như trước.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.7.8/Shot-0.7.8.zip" length="2766488" type="application/octet-stream" sparkle:edSignature="8+5Sz7oXvkVb3B1yD51fq4GS83cLTkNzn8S6UPxuedvp17DBSw5dtNtakrVQkyBoefFRjbqHYFP4rQvrILs7Bg=="/>
+            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.7.9/Shot-0.7.9.zip" length="2769740" type="application/octet-stream" sparkle:edSignature="mEcLWS9rqzacOxu0wC2Ca6MaasxmOjEpoGoGFDfp7m/Vr/x1EOTScQjcoqvYgKkPGEP+zNGNGYKF8p1H5KXHCg=="/>
         </item>
     </channel>
 </rss>
