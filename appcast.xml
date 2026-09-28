@@ -3,10 +3,10 @@
     <channel>
         <title>Shot</title>
         <item>
-            <title>0.8.0</title>
-            <pubDate>Tue, 29 Sep 2026 01:22:27 +0700</pubDate>
-            <sparkle:version>211</sparkle:version>
-            <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
+            <title>0.8.1</title>
+            <pubDate>Tue, 29 Sep 2026 01:37:20 +0700</pubDate>
+            <sparkle:version>214</sparkle:version>
+            <sparkle:shortVersionString>0.8.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -36,13 +36,11 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<p>Sửa thẳng trên màn hình giờ có hàng phím tắt, và ⌘A chọn số thứ tự cùng ô chữ đi kèm.</p>
+<p>Hàng phím tắt khi sửa thẳng trên màn hình gọn gàng hơn.</p>
 <h2>Sửa thẳng trên màn hình</h2>
-<ul><li><strong>Hàng phím tắt</strong>: nhấn vạch trắng nhỏ ở mép ngoài thanh công cụ để hiện chữ phím tắt dưới từng công cụ, như trong cửa sổ sửa ảnh. Nhấn vạch ở mép ngoài cột nút để hiện phím cạnh từng nút: ⌘C chép, ⌘S lưu thành, ⌘E chia sẻ, ⌘P ghim, Esc huỷ, ⌘⇧C xong. Nhấn lần nữa thì ẩn. Mỗi bên bật riêng, và Shot nhớ cho lần chụp sau.</li><li><strong>Phím tắt mới</strong>: ⌘S lưu thành, ⌘E chia sẻ và ⌘P ghim ảnh lên màn hình, ngay trong lúc sửa. Chữ đang gõ dở được giữ lại, như khi bấm nút.</li></ul>
-<h2>Cửa sổ sửa ảnh</h2>
-<ul><li><strong>⌘A chọn số thứ tự cùng ô chữ đi kèm</strong>: đang chọn một số thứ tự hoặc ô chữ cạnh số, nhấn ⌘A thì chọn tất cả số thứ tự cùng ô chữ của chúng, thay vì chỉ các ô chữ. Đang chọn ô chữ thường thì ⌘A chỉ chọn các ô chữ thường.</li></ul>
+<ul><li><strong>Các hàng công cụ tách rõ khi hiện phím tắt</strong>: thanh công cụ gập thành hai hoặc ba hàng thì các hàng giãn ra khi hiện chữ phím tắt, để mỗi hàng chữ nằm ngay dưới công cụ của nó. Nút Hoàn tác và Làm lại luôn thẳng với các hàng công cụ.</li><li><strong>Cột nút gọn hơn</strong>: phím tắt cạnh các nút xếp dọc thẳng mép trái, và cách nút Xong rộng hơn.</li><li><strong>Con trỏ giữ nguyên mũi tên</strong> khi rê lên vạch mở phím tắt.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.8.0/Shot-0.8.0.zip" length="2800294" type="application/octet-stream" sparkle:edSignature="gGqK//33wgF2me4kQEfTz6EIV+3/nqLoMjtk+KrV1u1hMQ8/7L6p8GkA4E/iS9TaVe54euObPLgeAm89sV2lCA=="/>
+            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.8.1/Shot-0.8.1.zip" length="2801227" type="application/octet-stream" sparkle:edSignature="FWjjcMHRZ2kXbLkkiV9akI2dikzG9vVvNN5VgxZFtsvmMwfI34rpJB2V+CoszdV/tZHE3ykMksOM6ghUSCOhDA=="/>
         </item>
     </channel>
 </rss>
