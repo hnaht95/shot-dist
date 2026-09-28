@@ -3,10 +3,10 @@
     <channel>
         <title>Shot</title>
         <item>
-            <title>0.7.2</title>
-            <pubDate>Mon, 28 Sep 2026 12:27:18 +0700</pubDate>
-            <sparkle:version>187</sparkle:version>
-            <sparkle:shortVersionString>0.7.2</sparkle:shortVersionString>
+            <title>0.7.3</title>
+            <pubDate>Mon, 28 Sep 2026 14:47:38 +0700</pubDate>
+            <sparkle:version>193</sparkle:version>
+            <sparkle:shortVersionString>0.7.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -36,13 +36,17 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<p>Ghi chú của số thứ tự giữ nguyên phía, đổi phía bằng tam giác quanh số hoặc bằng vạch chỉnh độ rộng.</p>
+<p>Nét vẽ trên ảnh từ điện thoại có cỡ bình thường, số thứ tự đi được tới sát mép, ghi chú trên hay dưới số co giãn được từ từng bên.</p>
+<h2>Ảnh mở bằng Shot</h2>
+<ul><li><strong>Ảnh lớn, như ảnh từ iPhone</strong>: mũi tên, đường kẻ, khung, chữ và số thứ tự giờ có cỡ như khi vẽ trên ảnh chụp màn hình, không còn mảnh như sợi tóc. Ảnh lớn hơn màn hình được tính như thể nó vừa khít màn hình đang mở cửa sổ sửa. Ảnh lưu ra vẫn giữ nguyên độ phân giải.</li></ul>
 <h2>Số thứ tự và ghi chú</h2>
-<ul><li><strong>Tam giác quanh số</strong>: chọn số hoặc ghi chú của nó thì có tam giác nhỏ ở mỗi phía còn trống: trái, phải, trên, dưới. Bấm vào tam giác nào thì ghi chú chuyển sang phía đó. Rê chuột lên thì tam giác đậm lên. Tam giác không có trong ảnh xuất ra.</li><li><strong>Kéo vạch qua số</strong>: nắm vạch chỉnh độ rộng của ghi chú kéo qua giữa số là ghi chú sang phía bên kia, mép xa bám theo tay.</li><li><strong>Ghi chú giữ phía</strong>: kéo số tới gần mép thì ghi chú không còn tự nhảy sang phía bên kia, cả hai dừng lại khi ghi chú chạm mép. Lúc gõ thêm chữ hay đổi cỡ số, ghi chú cũng giữ phía và tự xuống dòng khi hết chỗ.</li><li>Ghi chú đứng xa số hơn một chút, vòng chọn quanh số không còn chạm vào mũi ghi chú.</li></ul>
-<h2>Chữ</h2>
-<ul><li>Thu hẹp khung chữ hay ghi chú tới mức chữ xuống nhiều dòng thì khung dừng ở độ rộng vừa chiều cao ảnh, không còn dài xuống rồi bị cắt ở đáy.</li></ul>
+<ul><li><strong>Số đi tiếp khi ghi chú chạm mép</strong>: kéo số ra mép thì ghi chú dừng ở mép và giữ phía, còn số đi tiếp tới sát mép, mũi ghi chú chỉ theo. Ghi chú nằm về phía mép đang kéo tới thì tự xuống dòng cho hẹp lại, hẹp hết mức mới dừng.</li><li><strong>Ghi chú trên hoặc dưới số có vạch ở cả hai bên</strong>: kéo vạch bên nào thì chỉ bên đó giãn ra hay thu vào, bên kia đứng yên. Giữ Shift khi kéo thì hai bên cùng giãn hay cùng thu, ghi chú căn giữa theo số. Mũi ghi chú luôn chỉ đúng vào số.</li><li><strong>Khung ghi chú không rộng hơn chữ</strong>: kéo vạch ra tới hết chữ là dừng, không còn khoảng trống thừa.</li><li>Tam giác quanh số không còn thò ra ngoài lề: tam giác nào chạm lề thì ẩn đi, vì phía đó cũng không còn chỗ cho ghi chú.</li></ul>
+<h2>Chữ và lề</h2>
+<ul><li><strong>Vạch chỉnh độ rộng luôn nằm trong lề</strong>: vạch vẫn cách khung như cũ, còn khung chữ và ghi chú dừng cách mép vừa đủ chỗ cho vạch.</li><li><strong>Thẳng hàng ở mép</strong>: số thứ tự, khung chữ và ghi chú dừng cùng một khoảng cách với mép, và cách đều cả bốn mép.</li></ul>
+<h2>Thanh menu</h2>
+<ul><li>Biểu tượng Shot trên thanh menu đổi thành hình tròn có lỗ ở giữa.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.7.2/Shot-0.7.2.zip" length="2748634" type="application/octet-stream" sparkle:edSignature="LtvQRrZbvB4hT4grbu3nMOaH79Sk6g/CdsWmY7Yv9xUsFU/BJvNk8NdG/inI/hZZT8piA2bB10YXILMcHmPiAA=="/>
+            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.7.3/Shot-0.7.3.zip" length="2757300" type="application/octet-stream" sparkle:edSignature="vJhOwDWxucCcN9WI6124FiwFVjBNPlIHZimXsLXfgs6Fz9m+tVuQ62v35w8KPQp+ka6y6UD7blOegXnU3V3UCA=="/>
         </item>
     </channel>
 </rss>
