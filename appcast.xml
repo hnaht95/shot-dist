@@ -3,10 +3,10 @@
     <channel>
         <title>Shot</title>
         <item>
-            <title>0.7.6</title>
-            <pubDate>Mon, 28 Sep 2026 18:00:42 +0700</pubDate>
-            <sparkle:version>201</sparkle:version>
-            <sparkle:shortVersionString>0.7.6</sparkle:shortVersionString>
+            <title>0.7.7</title>
+            <pubDate>Mon, 28 Sep 2026 21:33:12 +0700</pubDate>
+            <sparkle:version>203</sparkle:version>
+            <sparkle:shortVersionString>0.7.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -36,11 +36,11 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<p>Sửa lại chữ trong khung thì khung co giãn theo chữ ngay trong lúc gõ.</p>
-<h2>Chữ</h2>
-<ul><li><strong>Khung theo chữ khi sửa</strong>: nhấp đúp để sửa một khung chữ đã có, gõ ít chữ đi thì khung co lại ngay, không còn giữ nguyên độ rộng cũ tới khi sửa xong. Gõ dài ra lại thì khung nở tới đúng độ rộng đã đặt rồi xuống dòng ở đó.</li><li>Ghi chú của số thứ tự cũng vậy: bớt chữ thì khung ghi chú co theo, không để trống phần thừa.</li></ul>
+<p>Esc trong cửa sổ sửa ảnh đưa về công cụ Di chuyển (V) ngay lần đầu.</p>
+<h2>Cửa sổ sửa ảnh</h2>
+<ul><li><strong>Esc về V</strong>: đang gõ chữ bằng công cụ Chữ (T) mà nhấn Esc thì chữ được giữ lại và công cụ về Di chuyển (V) ngay, không phải nhấn nhiều lần. Đang cầm công cụ vẽ khác cũng vậy. Esc không đóng cửa sổ sửa, nên nét vẽ chưa lưu không bị mất.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.7.6/Shot-0.7.6.zip" length="2766082" type="application/octet-stream" sparkle:edSignature="JYeol9Qf3c4X839tE3UyfykO3erMRZyXfu4BXLB1a75ljZ5Jm2AUIN7jxIFSHvk89v0WB4pq32jZqofCKP4nAQ=="/>
+            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.7.7/Shot-0.7.7.zip" length="2766347" type="application/octet-stream" sparkle:edSignature="pLkzgIlo/UbIbp74QYvtNABW64r8+ujXCnisJoUjozkE5zfEyPv//oLoAdale01NBjB5p112Gt16NXD2qygTBA=="/>
         </item>
     </channel>
 </rss>
