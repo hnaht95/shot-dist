@@ -3,10 +3,10 @@
     <channel>
         <title>Shot</title>
         <item>
-            <title>0.7.0</title>
-            <pubDate>Sun, 27 Sep 2026 21:02:44 +0700</pubDate>
-            <sparkle:version>180</sparkle:version>
-            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+            <title>0.7.1</title>
+            <pubDate>Mon, 28 Sep 2026 11:03:01 +0700</pubDate>
+            <sparkle:version>184</sparkle:version>
+            <sparkle:shortVersionString>0.7.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -36,13 +36,15 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<p>Cửa sổ Cài đặt làm lại theo kiểu Peek: gọn hơn, chọn bằng ô thả xuống, mỗi phím tắt là một nút.</p>
-<h2>Cửa sổ Cài đặt</h2>
-<ul><li><strong>Ô chọn thả xuống</strong> thay cho hàng nút ngang ở các lựa chọn nhiều giá trị: định dạng ảnh, chất lượng, thời gian thẻ ở lại, cỡ thẻ, sửa nhanh, giữ lịch sử, hẹn giờ, khoảng lề, số khung hình khi quay và tông màu. Danh sách mở ra ngay cạnh cửa sổ, có dấu tích ở lựa chọn đang dùng.</li><li><strong>Ngôn ngữ lên đầu mục Chung</strong>, cùng hàng với Chạy khi đăng nhập.</li><li><strong>Bỏ các tiêu đề nhóm chữ in hoa.</strong> Vài hàng đổi tên cho rõ nghĩa: Giữ lịch sử trong, Lịch sử hiện có, Số khung hình khi quay, Hiện con trỏ trong video quay.</li><li><strong>Chữ mô tả gọn hơn</strong>: chỉ hàng nào cần giải thích mới có, và chữ tự xuống dòng thẳng một mép.</li><li><strong>Góc đặt thẻ</strong>: hình chọn góc to hơn, kèm một dòng chữ nói thẻ đang hiện ở góc nào.</li></ul>
-<h2>Phím tắt</h2>
-<ul><li><strong>Mỗi phím tắt là một nút</strong>, ví dụ ⇧⌘4, thay cho từng phím tách rời.</li><li>Nút sửa phím tắt dùng đúng biểu tượng cây bút của thẻ ảnh.</li><li>Bỏ hàng Huỷ khi đang chụp. Esc vẫn huỷ như cũ, chỉ không còn hiện trong danh sách.</li></ul>
+<p>Chữ có nền và mũi tên chỉ như bong bóng thoại, Esc trên màn hình đi từng bước, ghi chú giữ cỡ riêng của nó.</p>
+<h2>Chữ</h2>
+<ul><li><strong>Chữ có nền</strong>: công cụ Chữ có ba lựa chọn trên cột tùy chọn: chữ không nền, chữ có nền, và chữ có nền kèm mũi tên. Mặc định là có nền. Có nền thì màu chọn là màu nền, chữ tự lấy màu dễ đọc trên nền đó; không nền thì màu chọn là màu chữ.</li><li><strong>Mũi tên như bong bóng thoại</strong>: bật lên là có ngay một mũi ngắn chĩa xuống. Kéo chấm ở đầu mũi để chỉ về phía nào cũng được, mũi tên tự mọc từ cạnh hướng về phía đó và chỉ nhô ra một chút. Mũi tên luôn hiện, kể cả khi thả chấm vào trong khung; muốn bỏ thì chọn lại nút chữ có nền.</li><li>Mũi tên bo tròn ở đầu và ở chỗ nối với khung, chân rộng bằng cỡ chữ. Kéo khung thì mũi tên đi theo.</li><li>Đang gõ mà đổi màu, cỡ chữ, nền hay mũi tên thì chữ đang gõ đổi theo ngay.</li><li><strong>Tay chỉnh độ rộng</strong> hai bên khung chữ giờ là vạch dọc mảnh, sát khung. Vạch ở phía mũi tên chĩa ra tự mờ đi cho gọn.</li></ul>
+<h2>Số thứ tự</h2>
+<ul><li>Đổi cỡ số không còn đổi cỡ ghi chú bên cạnh. Màu vẫn luôn đi cùng nhau.</li><li>Mũi nhỏ của ghi chú chỉ vào số cũng được bo tròn ở đầu và chỗ nối.</li></ul>
+<h2>Chụp và vẽ ngay trên màn hình</h2>
+<ul><li><strong>Esc đi từng bước</strong>: lần đầu về công cụ Di chuyển (V) và bỏ chọn, lần nữa thì thoát, bấm nhanh hay chậm đều được. Đang gõ chữ thì một lần Esc vừa chốt chữ vừa về V.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.7.0/Shot-0.7.0.zip" length="2706434" type="application/octet-stream" sparkle:edSignature="herIvJN5JjPY7BdzYTBwSOyP5gDj2ZyHZjoJQuLfhHmKfmRVmOXY+YLUjs2GdFJmzVSVL409jD+wqAFEAfwgCQ=="/>
+            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.7.1/Shot-0.7.1.zip" length="2740059" type="application/octet-stream" sparkle:edSignature="22NPGS7+Rz8JKIPunKfA7VDjcoF5lfybu4xmK/wVcdk7avRxb+ihHlKbvbaB0U3TzysrTdKU6XAWb5v/DHKMDw=="/>
         </item>
     </channel>
 </rss>
