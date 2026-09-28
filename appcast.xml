@@ -3,10 +3,10 @@
     <channel>
         <title>Shot</title>
         <item>
-            <title>0.7.4</title>
-            <pubDate>Mon, 28 Sep 2026 16:14:05 +0700</pubDate>
-            <sparkle:version>196</sparkle:version>
-            <sparkle:shortVersionString>0.7.4</sparkle:shortVersionString>
+            <title>0.7.5</title>
+            <pubDate>Mon, 28 Sep 2026 16:37:31 +0700</pubDate>
+            <sparkle:version>199</sparkle:version>
+            <sparkle:shortVersionString>0.7.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -36,13 +36,11 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<p>Biểu tượng mới trên thanh menu, và ⌘⇧C để xong ảnh đang sửa.</p>
-<h2>Cửa sổ sửa ảnh</h2>
-<ul><li><strong>⌘⇧C để xong</strong>: nhấn ⌘⇧C trong cửa sổ sửa ảnh là xong và đóng cửa sổ, như bấm nút Xong. Chữ đang gõ dở được giữ lại trước khi đóng.</li></ul>
-<h2>Thanh menu</h2>
-<ul><li><strong>Biểu tượng mới</strong>: hình vuông bo góc có lỗ tròn ở giữa, to hơn trước một chút cho dễ nhìn.</li></ul>
+<p>Lịch sử chụp không còn bị mất: ảnh mới luôn vào danh sách, ảnh bị dời hay đổi tên vẫn được giữ.</p>
+<h2>Lịch sử chụp</h2>
+<ul><li><strong>Chỉ chạy một Shot</strong>: mở thêm một bản Shot, ví dụ từ tệp DMG hay thư mục Tải về, trong khi Shot đang chạy thì bản mới tự nhường cho bản đang chạy. Hai bản chạy cùng lúc từng ghi đè lịch sử của nhau, khiến ảnh mới không hiện trong danh sách rồi mất hẳn.</li><li><strong>Ảnh bị dời hay đổi tên vẫn ở trong lịch sử</strong>: dời ảnh từ Desktop vào thư mục khác hay đổi tên, Shot vẫn tìm ra và giữ trong danh sách. Chỉ ảnh đã xoá hay bỏ vào Thùng rác mới ra khỏi danh sách.</li><li><strong>Không xoá nhầm khi chưa thấy ảnh</strong>: khi Shot tạm thời không xem được thư mục chứa ảnh, ví dụ chưa được cấp quyền vào Desktop hay ổ ngoài chưa cắm, danh sách được giữ nguyên thay vì bị xoá.</li><li><strong>Tệp lịch sử lỗi không làm mất cả danh sách</strong>: mục nào đọc không được thì chỉ bỏ riêng mục đó, và tệp cũ được cất lại một bản.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.7.4/Shot-0.7.4.zip" length="2757215" type="application/octet-stream" sparkle:edSignature="n8lK2No7pK95SFDTKv8eZlAtr+xWsFnCLStvscRM4z8dxS4UNOiSnCAZ02Z8EcLClh2lod4DsmIrsytl6i46Bw=="/>
+            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.7.5/Shot-0.7.5.zip" length="2766141" type="application/octet-stream" sparkle:edSignature="NNGyuX98HHShkSpHfR2Odb5EHtPfoytWCfNKZVD3jbJWErn9wayeXM9BlksPG8fEx5dwqetXZfla3WhSnRVsBw=="/>
         </item>
     </channel>
 </rss>
