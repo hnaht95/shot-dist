@@ -3,10 +3,10 @@
     <channel>
         <title>Shot</title>
         <item>
-            <title>0.8.1</title>
-            <pubDate>Tue, 29 Sep 2026 01:37:20 +0700</pubDate>
-            <sparkle:version>214</sparkle:version>
-            <sparkle:shortVersionString>0.8.1</sparkle:shortVersionString>
+            <title>0.8.2</title>
+            <pubDate>Tue, 29 Sep 2026 18:13:16 +0700</pubDate>
+            <sparkle:version>216</sparkle:version>
+            <sparkle:shortVersionString>0.8.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -36,11 +36,21 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<p>Hàng phím tắt khi sửa thẳng trên màn hình gọn gàng hơn.</p>
+<p>Chọn bảng màu theo ý thích, kéo khung để chọn nhiều nét, và làm mờ gọn gàng hơn.</p>
+<h2>Màu</h2>
+<ul><li><strong>21 bảng màu để chọn</strong>: nút tròn đổi màu ở đầu cột màu mở ra danh sách thẻ màu, gồm bảng Gốc và 20 bảng được yêu thích nhất trên Color Hunt như Pastel, Neon, Hoàng hôn, Retro. Chọn một bảng thì các màu chuyển dần sang bảng mới, màu đang dùng vẫn giữ đúng vị trí của nó, và Shot nhớ bảng đã chọn. Nhấn Esc hoặc bấm ra ngoài để đóng danh sách.</li><li><strong>Pastel mới</strong> tươi hơn, không còn trông như bị mờ đi.</li><li><strong>Chấm nhỏ trên màu đang chọn</strong>: thay cho kiểu đánh dấu cũ, một chấm tròn nhỏ chơi đùa trong và quanh màu đang chọn. Nó lăn vòng, chui ra chạy quanh rồi chui vào, và quay theo con trỏ khi bạn rê quanh màu đó. Bật Giảm chuyển động trong Trợ năng thì chấm đứng yên.</li></ul>
+<h2>Chọn nét</h2>
+<ul><li><strong>Kéo khung để chọn nhiều nét</strong> bằng công cụ Chọn, như kéo khung trong Finder: khung chạm vào nét nào thì chọn nét đó, theo đúng đường vẽ chứ không theo khung bao quanh. Giữ ⌘ để thêm hoặc bỏ, giữ ⌥ để kéo khung ngay trên một nét. Số thứ tự và ô chữ đi kèm luôn được chọn cùng nhau.</li><li><strong>⌘A giữ đúng loại đang chọn</strong>: đang chọn toàn mũi tên thì ⌘A chọn hết mũi tên. ⇧⌘A không còn là phím tắt khi vẽ.</li><li><strong>Tay nắm ở góc khung</strong> cách nét đều như tay nắm ở đầu mũi tên.</li></ul>
+<h2>Làm mờ và che ô vuông</h2>
+<ul><li><strong>Nhẹ hơn</strong>: vừa đủ để chữ bên dưới không đọc được, không còn thành một mảng đặc che mất cả bố cục trang.</li><li><strong>Bo góc</strong> như khung của công cụ Làm nổi bật, và đường viền khi chọn cũng bo theo.</li><li><strong>Có viền khi đang kéo</strong>, để thấy vùng đó nằm đâu kể cả trên nền trơn.</li></ul>
+<h2>Cửa sổ sửa ảnh</h2>
+<ul><li><strong>Hiện phím tắt</strong>: chữ phím tắt nằm dưới từng công cụ, còn phím của Lưu thành…, Chia sẻ và Ghim hiện ra khi rê chuột lên nút. ⌘S, ⌘E và ⌘P dùng được ngay trong cửa sổ.</li><li><strong>Khi cắt ảnh</strong>, các công cụ vẫn ở nguyên chỗ, nút Cắt và Huỷ hiện ra mượt mà ngay chỗ các nút Lưu thành…, Chia sẻ, Ghim.</li></ul>
 <h2>Sửa thẳng trên màn hình</h2>
-<ul><li><strong>Các hàng công cụ tách rõ khi hiện phím tắt</strong>: thanh công cụ gập thành hai hoặc ba hàng thì các hàng giãn ra khi hiện chữ phím tắt, để mỗi hàng chữ nằm ngay dưới công cụ của nó. Nút Hoàn tác và Làm lại luôn thẳng với các hàng công cụ.</li><li><strong>Cột nút gọn hơn</strong>: phím tắt cạnh các nút xếp dọc thẳng mép trái, và cách nút Xong rộng hơn.</li><li><strong>Con trỏ giữ nguyên mũi tên</strong> khi rê lên vạch mở phím tắt.</li></ul>
+<ul><li><strong>Cột màu và cỡ co giãn mượt</strong> khi đổi công cụ, ví dụ thêm nhóm tô nền khi chuyển sang hình chữ nhật, kể cả khi cột phải gập thành hai cột.</li><li><strong>Cột màu mờ dần</strong> khi đổi sang công cụ không dùng màu, thay vì tối lại trong một nhịp.</li><li><strong>Khi cắt ảnh</strong>, nút Cắt và Huỷ đứng ở chỗ các nút Xong và Lưu thành…, như trong cửa sổ sửa ảnh. Nút Huỷ có nền để nhìn rõ.</li><li><strong>Hiện phím tắt không làm thanh công cụ giật lên</strong> nữa. Chữ phím tắt cũng rõ hơn một chút trên nền sáng.</li></ul>
+<h2>Công cụ</h2>
+<ul><li><strong>Biểu tượng mới cho công cụ Che ô vuông (P).</strong></li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.8.1/Shot-0.8.1.zip" length="2801227" type="application/octet-stream" sparkle:edSignature="FWjjcMHRZ2kXbLkkiV9akI2dikzG9vVvNN5VgxZFtsvmMwfI34rpJB2V+CoszdV/tZHE3ykMksOM6ghUSCOhDA=="/>
+            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.8.2/Shot-0.8.2.zip" length="2909422" type="application/octet-stream" sparkle:edSignature="LTs9gg1FM2k8maFvSkKSyPwtfaTjCVtbOjf6nvt4Ymn8deqW2uGiNnqGqKbAWxXaUBX0Ukc8NXwDyrBT/AluDg=="/>
         </item>
     </channel>
 </rss>
