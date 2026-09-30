@@ -3,10 +3,10 @@
     <channel>
         <title>Shot</title>
         <item>
-            <title>0.8.3</title>
-            <pubDate>Tue, 29 Sep 2026 21:03:37 +0700</pubDate>
-            <sparkle:version>218</sparkle:version>
-            <sparkle:shortVersionString>0.8.3</sparkle:shortVersionString>
+            <title>0.8.4</title>
+            <pubDate>Wed, 30 Sep 2026 17:49:10 +0700</pubDate>
+            <sparkle:version>222</sparkle:version>
+            <sparkle:shortVersionString>0.8.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -36,11 +36,17 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<p>Bảng chọn bảng màu hợp với giao diện tối, và chấm trên màu đang chọn gọn gàng hơn.</p>
+<p>Giữ ⌘ kéo để nhân bản nét, mỗi công cụ nhớ màu và cỡ riêng, còn khi sửa thẳng trên màn hình thì nhấn đúp ra ngoài là xong.</p>
+<h2>Sửa thẳng trên màn hình</h2>
+<ul><li><strong>Nhấn đúp ra ngoài là Xong</strong>: nhấn đúp lên vùng tối quanh vùng chụp để chép ảnh và đóng, như bấm ✓. Một dòng chữ viết tay cạnh nút ✓ nhắc điều này: hiện sau 2 giây, ở lại 10 giây rồi mờ dần. Dòng chữ đi cùng hàng nút khi hiện hay ẩn phím tắt, và không bao giờ đè lên ảnh.</li><li><strong>Bấm Xong là tắt ngay</strong>: lớp phủ biến mất ngay lúc bấm, không còn đứng lại thêm một chút, lúc nhanh lúc chậm. Tiếng chụp vang đúng lúc lớp phủ tắt.</li><li><strong>Hai hàng xếp chồng gọn hơn</strong>: khi thanh công cụ và hàng nút phải xếp chồng lên nhau, vạch hiện phím tắt đứng dọc ở cạnh bên thay vì kẹt giữa hai hàng, và hai hàng đứng sát nhau hơn. Hàng nút chung hàng với thanh công cụ luôn giữ một khoảng cách vừa đủ, không còn sát rạt.</li><li><strong>Bảng nổi màu trắng ở giao diện sáng</strong>, cùng màu với danh sách bảng màu.</li></ul>
+<h2>Nét vẽ</h2>
+<ul><li><strong>Giữ ⌘ rồi kéo để nhân bản</strong>: bản sao đi theo con trỏ, nét gốc nằm yên chỗ cũ. Đang chọn nhiều nét thì nhân bản cả nhóm; số thứ tự được sao cùng ô chữ đi kèm và lấy số kế tiếp. ⌘Z một lần là bỏ bản sao. Giữ ⌘ bấm mà không kéo thì vẫn chọn hoặc bỏ chọn như cũ.</li><li><strong>Giữ Shift khi kéo</strong> để nét chỉ đi ngang, dọc hoặc chéo đúng 45°, khi di chuyển cũng như khi ⌘ kéo nhân bản. Chạm mép ảnh thì nét dừng lại trên đúng hướng đó.</li><li><strong>Mỗi công cụ nhớ màu và cỡ riêng</strong>: mũi tên, khung, chữ… mỗi công cụ giữ màu, độ dày hay cỡ chữ lần cuối bạn dùng, cho cả những lần chụp sau.</li><li><strong>Spotlight phủ lên cả vùng làm mờ</strong>: dưới spotlight, vùng làm mờ và che ô vuông tối như phần ảnh quanh nó, không còn viền sáng. Góc bo của vùng chụp cũng không còn vệt sáng.</li></ul>
 <h2>Màu</h2>
-<ul><li><strong>Bảng chọn bảng màu theo giao diện</strong>: ở giao diện tối, bảng có nền tối hợp với cột màu, kể cả khi Shot đặt giao diện Tối còn macOS để Sáng. Giao diện sáng vẫn nền trắng.</li><li><strong>Góc bảng bo đều với góc thẻ màu</strong>: khoảng cách từ mép bảng tới các thẻ đều nhau cả ở chỗ uốn góc.</li><li><strong>Mũi tên chỉ đúng nút tròn đổi màu</strong>: bảng nhích lên vừa đủ để mũi tên luôn ngang tâm nút.</li><li><strong>Thanh cuộn nằm dưới mũi tên</strong> và sát mép phải hơn.</li><li><strong>Tên bảng màu cuối cùng không còn bị cắt</strong> khi cuộn xuống cuối danh sách.</li><li><strong>Chấm nhỏ trên màu đang chọn không còn viền</strong> khi chui ra ngoài ô màu.</li></ul>
+<ul><li><strong>Chấm nhỏ trên màu đang chọn nghịch hơn</strong>: trôi chậm như bong bóng, chạy lăng xăng, cười khúc khích, xoay tít rồi phanh gấp, và sang chơi các ô màu bên cạnh: tách đôi như giọt nước, một nửa ở nhà, một nửa đi, rồi nhập lại khi quay về. Nó cũng nhìn theo con trỏ khi bạn rê gần ảnh.</li><li><strong>Danh sách bảng màu do Shot tự vẽ</strong> cả bóng đổ: bóng nhẹ và mềm hơn, không bị cắt, không còn viền của macOS mới. Nền trắng ở giao diện sáng, gần đen ở giao diện tối. Bảng đang dùng có dấu tích tròn ở góc.</li><li><strong>Trong cửa sổ sửa ảnh</strong>, danh sách bảng màu mở sang bên trái, nằm ngoài cửa sổ, và vẫn hiện khi bạn kéo cửa sổ đi.</li></ul>
+<h2>Khác</h2>
+<ul><li><strong>Xong và Chép không làm app khựng</strong>: bấm Xong trong cửa sổ sửa ảnh thì cửa sổ đóng ngay, việc lưu chạy ngầm. ⇧⌘C và nút Chép cũng vậy, và dán ngay sau đó vẫn ra ảnh mới.</li><li><strong>Con lăn chuột cuộn mượt</strong> trong mọi danh sách của Shot, không cần phần mềm chuột bên thứ ba. Trackpad và Magic Mouse vẫn như cũ.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.8.3/Shot-0.8.3.zip" length="2910386" type="application/octet-stream" sparkle:edSignature="FfPMe9m5XUJZUA2PHTFZ25MT1rTYAXecPbnqxLrP8hwNcSmZ7WmrTtH1Yq8nZCjk0Jg3cLCirLBg3RQFZJ2GCA=="/>
+            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.8.4/Shot-0.8.4.zip" length="3011081" type="application/octet-stream" sparkle:edSignature="troPSZ8JaYbwe5VYCTnSvFPkCEckiB/zbWNKdONwD/O+JwnJf3MkarxM7aldtsa3FTi4M0ZHZvqouJlZc+ycBQ=="/>
         </item>
     </channel>
 </rss>
