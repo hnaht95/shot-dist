@@ -3,10 +3,10 @@
     <channel>
         <title>Shot</title>
         <item>
-            <title>0.8.7</title>
-            <pubDate>Wed, 30 Sep 2026 19:57:55 +0700</pubDate>
-            <sparkle:version>228</sparkle:version>
-            <sparkle:shortVersionString>0.8.7</sparkle:shortVersionString>
+            <title>0.8.8</title>
+            <pubDate>Thu, 01 Oct 2026 00:18:31 +0700</pubDate>
+            <sparkle:version>230</sparkle:version>
+            <sparkle:shortVersionString>0.8.8</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -36,11 +36,11 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<p>Đổi cỡ nét giờ đều và gọn hơn, tay nắm đi cùng nét.</p>
-<h2>Nét vẽ</h2>
-<ul><li><strong>Đổi cỡ đều và nhanh hơn</strong>: nét lớn dần hay nhỏ dần với tốc độ đều, chỉ êm ở hai đầu, trong khoảng 0,15 giây, không còn vọt lên rồi nhích chậm.</li><li><strong>Tay nắm đi cùng nét</strong>: khi đổi độ dày hay cỡ chữ, các chấm tay nắm, viền chọn và thanh chỉnh độ rộng chữ di chuyển theo nét, không còn nhảy trước tới chỗ mới.</li></ul>
+<p>Nút Xong giờ chỉ có một phím tắt dễ nhớ: Enter.</p>
+<h2>Phím tắt</h2>
+<ul><li><strong>Enter là Xong</strong>: trong cửa sổ sửa ảnh và khi sửa thẳng trên màn hình, chữ phím dưới nút Xong giờ ghi ENTER, cạnh ESC của nút Huỷ. Lúc đang cắt ảnh, Enter vẫn là áp dụng khung cắt.</li><li><strong>Bỏ ⇧⌘C</strong>: tổ hợp này không còn đóng trình sửa nữa. ⌘C vẫn chép ảnh mà không đóng.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.8.7/Shot-0.8.7.zip" length="3020222" type="application/octet-stream" sparkle:edSignature="f+or+2LAGA9sm7LSuyfg8lr+T+oop66HWBtyUX2i5+7FXaUit3nFy5OBHGmzzjANhJl0a+sHeGX2rE4Miv/vAg=="/>
+            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.8.8/Shot-0.8.8.zip" length="3020176" type="application/octet-stream" sparkle:edSignature="rAdXAw68nmmK4lD4NpaGpoMot+lqd+aWT2KildP8DDLQmEjP6jneYR3PPNVrSOX20UsjEJddnzwZzbxRHCktAw=="/>
         </item>
     </channel>
 </rss>
