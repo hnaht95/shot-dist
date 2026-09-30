@@ -3,10 +3,10 @@
     <channel>
         <title>Shot</title>
         <item>
-            <title>0.8.5</title>
-            <pubDate>Wed, 30 Sep 2026 19:21:00 +0700</pubDate>
-            <sparkle:version>224</sparkle:version>
-            <sparkle:shortVersionString>0.8.5</sparkle:shortVersionString>
+            <title>0.8.6</title>
+            <pubDate>Wed, 30 Sep 2026 19:38:12 +0700</pubDate>
+            <sparkle:version>226</sparkle:version>
+            <sparkle:shortVersionString>0.8.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -36,11 +36,11 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<p>Dòng nhắc cạnh nút ✓ khi sửa thẳng trên màn hình giờ chỉ hiện 5 giây.</p>
-<h2>Sửa thẳng trên màn hình</h2>
-<ul><li><strong>Dòng nhắc "nhấn đúp ra ngoài" hiện ngắn hơn</strong>: ở lại 5 giây thay vì 10 rồi mờ dần, đủ để đọc mà không vướng mắt.</li></ul>
+<p>Nét đã vẽ giờ phóng to, thu nhỏ mượt khi bạn đổi độ dày hoặc cỡ chữ.</p>
+<h2>Nét vẽ</h2>
+<ul><li><strong>Đổi cỡ có hiệu ứng</strong>: chọn một nét rồi đổi độ dày, hoặc đổi cỡ chữ và cỡ số thứ tự, nét lớn dần hay nhỏ dần tới cỡ mới trong chớp mắt, không còn nhảy phắt. Khung chữ và mũi chỉ đi kèm cũng dịch theo. Hoàn tác và làm lại cũng mượt như vậy. Bật Giảm chuyển động trong Trợ năng thì nét đổi cỡ ngay.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.8.5/Shot-0.8.5.zip" length="3011104" type="application/octet-stream" sparkle:edSignature="xtXPzLX75zL6MHiOsbGB6pMzbwpnxlC4oWCdW/GghmN3e0SsH4Imi98+mrpEsMpe0mrvi2FimGt7eUg5tY0bDA=="/>
+            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.8.6/Shot-0.8.6.zip" length="3018792" type="application/octet-stream" sparkle:edSignature="1qXiArwkEdCAREbt/lNK0V9HQqs5gd96WVt3SVY0xmNIwJ0he/eK+5aHGMkD0sniBDgd8HHFjyeP6hLEE3CPDg=="/>
         </item>
     </channel>
 </rss>
