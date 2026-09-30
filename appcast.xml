@@ -3,10 +3,10 @@
     <channel>
         <title>Shot</title>
         <item>
-            <title>0.8.6</title>
-            <pubDate>Wed, 30 Sep 2026 19:38:12 +0700</pubDate>
-            <sparkle:version>226</sparkle:version>
-            <sparkle:shortVersionString>0.8.6</sparkle:shortVersionString>
+            <title>0.8.7</title>
+            <pubDate>Wed, 30 Sep 2026 19:57:55 +0700</pubDate>
+            <sparkle:version>228</sparkle:version>
+            <sparkle:shortVersionString>0.8.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -36,11 +36,11 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<p>Nét đã vẽ giờ phóng to, thu nhỏ mượt khi bạn đổi độ dày hoặc cỡ chữ.</p>
+<p>Đổi cỡ nét giờ đều và gọn hơn, tay nắm đi cùng nét.</p>
 <h2>Nét vẽ</h2>
-<ul><li><strong>Đổi cỡ có hiệu ứng</strong>: chọn một nét rồi đổi độ dày, hoặc đổi cỡ chữ và cỡ số thứ tự, nét lớn dần hay nhỏ dần tới cỡ mới trong chớp mắt, không còn nhảy phắt. Khung chữ và mũi chỉ đi kèm cũng dịch theo. Hoàn tác và làm lại cũng mượt như vậy. Bật Giảm chuyển động trong Trợ năng thì nét đổi cỡ ngay.</li></ul>
+<ul><li><strong>Đổi cỡ đều và nhanh hơn</strong>: nét lớn dần hay nhỏ dần với tốc độ đều, chỉ êm ở hai đầu, trong khoảng 0,15 giây, không còn vọt lên rồi nhích chậm.</li><li><strong>Tay nắm đi cùng nét</strong>: khi đổi độ dày hay cỡ chữ, các chấm tay nắm, viền chọn và thanh chỉnh độ rộng chữ di chuyển theo nét, không còn nhảy trước tới chỗ mới.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.8.6/Shot-0.8.6.zip" length="3018792" type="application/octet-stream" sparkle:edSignature="1qXiArwkEdCAREbt/lNK0V9HQqs5gd96WVt3SVY0xmNIwJ0he/eK+5aHGMkD0sniBDgd8HHFjyeP6hLEE3CPDg=="/>
+            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.8.7/Shot-0.8.7.zip" length="3020222" type="application/octet-stream" sparkle:edSignature="f+or+2LAGA9sm7LSuyfg8lr+T+oop66HWBtyUX2i5+7FXaUit3nFy5OBHGmzzjANhJl0a+sHeGX2rE4Miv/vAg=="/>
         </item>
     </channel>
 </rss>
