@@ -3,10 +3,10 @@
     <channel>
         <title>Shot</title>
         <item>
-            <title>0.8.8</title>
-            <pubDate>Thu, 01 Oct 2026 00:18:31 +0700</pubDate>
-            <sparkle:version>230</sparkle:version>
-            <sparkle:shortVersionString>0.8.8</sparkle:shortVersionString>
+            <title>0.8.9</title>
+            <pubDate>Thu, 01 Oct 2026 08:20:21 +0700</pubDate>
+            <sparkle:version>232</sparkle:version>
+            <sparkle:shortVersionString>0.8.9</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -36,11 +36,11 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<p>Nút Xong giờ chỉ có một phím tắt dễ nhớ: Enter.</p>
+<p>Đổi được phím tắt cho Chép và Xong trong Cài đặt.</p>
 <h2>Phím tắt</h2>
-<ul><li><strong>Enter là Xong</strong>: trong cửa sổ sửa ảnh và khi sửa thẳng trên màn hình, chữ phím dưới nút Xong giờ ghi ENTER, cạnh ESC của nút Huỷ. Lúc đang cắt ảnh, Enter vẫn là áp dụng khung cắt.</li><li><strong>Bỏ ⇧⌘C</strong>: tổ hợp này không còn đóng trình sửa nữa. ⌘C vẫn chép ảnh mà không đóng.</li></ul>
+<ul><li><strong>Phím Chép và Xong tùy chỉnh được</strong>: trong Cài đặt › Phím tắt có thêm mục Trong trình sửa, đổi được phím của nút Chép (mặc định ⌘C) và nút Xong (mặc định Enter). Hai phím này chỉ dùng trong trình sửa và khi sửa thẳng trên màn hình, không chiếm phím của app khác.</li><li><strong>Chữ phím dưới nút đổi theo</strong>: đặt phím mới thì chữ phím dưới nút Chép và Xong, cùng dòng gợi ý khi rê chuột, hiện đúng phím đó.</li><li><strong>Không đặt trùng được</strong>: Shot báo ngay nếu phím mới trùng một phím trình sửa đã dùng (⌘Z, ⌘S, ⌘A…), trùng phím tắt chụp, hoặc là một chữ cái đơn vốn để chọn công cụ. Nút Về mặc định đưa cả hai về ⌘C và Enter.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.8.8/Shot-0.8.8.zip" length="3020176" type="application/octet-stream" sparkle:edSignature="rAdXAw68nmmK4lD4NpaGpoMot+lqd+aWT2KildP8DDLQmEjP6jneYR3PPNVrSOX20UsjEJddnzwZzbxRHCktAw=="/>
+            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.8.9/Shot-0.8.9.zip" length="3031677" type="application/octet-stream" sparkle:edSignature="s+W9xKr4p0rgGuTWLVOoo0jPnOLyR9h382JgDsrLfR8/gG5MJaWith8EfwGky0cHdM0dRua0HXZMRllpjmFpDw=="/>
         </item>
     </channel>
 </rss>
