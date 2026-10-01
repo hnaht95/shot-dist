@@ -3,10 +3,10 @@
     <channel>
         <title>Shot</title>
         <item>
-            <title>0.8.9</title>
-            <pubDate>Thu, 01 Oct 2026 08:20:21 +0700</pubDate>
-            <sparkle:version>232</sparkle:version>
-            <sparkle:shortVersionString>0.8.9</sparkle:shortVersionString>
+            <title>0.9.0</title>
+            <pubDate>Thu, 01 Oct 2026 17:41:49 +0700</pubDate>
+            <sparkle:version>234</sparkle:version>
+            <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -36,11 +36,15 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<p>Đổi được phím tắt cho Chép và Xong trong Cài đặt.</p>
-<h2>Phím tắt</h2>
-<ul><li><strong>Phím Chép và Xong tùy chỉnh được</strong>: trong Cài đặt › Phím tắt có thêm mục Trong trình sửa, đổi được phím của nút Chép (mặc định ⌘C) và nút Xong (mặc định Enter). Hai phím này chỉ dùng trong trình sửa và khi sửa thẳng trên màn hình, không chiếm phím của app khác.</li><li><strong>Chữ phím dưới nút đổi theo</strong>: đặt phím mới thì chữ phím dưới nút Chép và Xong, cùng dòng gợi ý khi rê chuột, hiện đúng phím đó.</li><li><strong>Không đặt trùng được</strong>: Shot báo ngay nếu phím mới trùng một phím trình sửa đã dùng (⌘Z, ⌘S, ⌘A…), trùng phím tắt chụp, hoặc là một chữ cái đơn vốn để chọn công cụ. Nút Về mặc định đưa cả hai về ⌘C và Enter.</li></ul>
+<p>Cửa sổ Cài đặt làm lại: các mục xếp thành hàng thẻ phía trên, và mỗi lựa chọn sau khi chụp có một đoạn phim minh hoạ.</p>
+<h2>Cửa sổ Cài đặt</h2>
+<ul><li><strong>Hàng thẻ phía trên</strong>: Chung, Sau khi chụp, Thẻ ảnh, Chụp ảnh, Hình nền, Quay màn hình, Phím tắt, Quyền và Giới thiệu nằm thành hàng thẻ trên đầu cửa sổ, thay cho cột bên trái.</li><li><strong>Phim cho từng lựa chọn sau khi chụp</strong>: bấm Hiện thẻ ở góc, Mở trình sửa hay Sửa trên màn hình là thấy một đoạn phim ngắn trên chính màn hình của bạn: kéo một vùng, rồi thẻ hiện ra và sửa từ thẻ, hoặc trình sửa mở ra, hoặc công cụ hiện quanh vùng vừa kéo. Phim chạy lặp tới khi bạn chọn cái khác.</li><li><strong>Bỏ Ghim lên trên</strong>: Sau khi chụp không còn lựa chọn ghim ảnh ngay. Nút Ghim trên thẻ, trong trình sửa và khi sửa trên màn hình vẫn còn. Nếu bạn đang chọn Ghim, Shot quay về mặc định: không mở gì thêm, thẻ vẫn hiện nếu đang bật.</li><li><strong>Chọn góc thẻ trên hình màn hình</strong>: mục Thẻ ảnh vẽ màn hình của bạn với thẻ đúng cỡ thật. Bấm vào góc khác để dời thẻ sang đó.</li><li><strong>Chọn tông màu bằng hình</strong>: Sáng, Tối hay Theo máy, mỗi lựa chọn là một cửa sổ nhỏ trong tông ấy.</li><li><strong>Xem trước ảnh chụp cửa sổ</strong>: mục Hình nền có một ảnh chụp cửa sổ mẫu theo đúng lề, bóng đổ và nền đang đặt, đổi gì thấy ngay.</li><li><strong>Phím tắt hiện thành phím bấm</strong>: mỗi phím tắt là các phím như trên bàn phím. Bấm vào để đặt lại: viền sáng chạy quanh trong lúc chờ, phím ⌘ ⌥ ⇧ ⌃ đang giữ hiện ra ngay.</li></ul>
+<h2>Menu</h2>
+<ul><li><strong>Bật tắt tiếng chụp ngay trong menu</strong>: menu của Shot trên thanh menu có thêm dòng Tiếng chụp. Bấm là đổi, menu vẫn mở.</li></ul>
+<h2>Sửa trên màn hình</h2>
+<ul><li><strong>Dòng gợi ý cạnh nút Xong viết lại</strong>: việc nút ✓ làm, như "chép &amp; đóng", viết tay ở trên; cách còn lại, "hoặc nhấn đúp ra ngoài", ở dưới.</li><li><strong>Không tắt khi đang đọc</strong>: con trỏ ở trên dòng gợi ý thì nó đứng yên. Để chuột trên nút Xong một chút thì nó hiện lại.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.8.9/Shot-0.8.9.zip" length="3031677" type="application/octet-stream" sparkle:edSignature="s+W9xKr4p0rgGuTWLVOoo0jPnOLyR9h382JgDsrLfR8/gG5MJaWith8EfwGky0cHdM0dRua0HXZMRllpjmFpDw=="/>
+            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.9.0/Shot-0.9.0.zip" length="3890463" type="application/octet-stream" sparkle:edSignature="rHEylSlOQ6V6SqK+ZnGRJ5FDBoirjEpk1hBYDTFX/C5FS63lD0YYrq4hqGlBh9piaDDYAGfOnUDzWIW5fMocDQ=="/>
         </item>
     </channel>
 </rss>
