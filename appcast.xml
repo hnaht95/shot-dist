@@ -3,10 +3,10 @@
     <channel>
         <title>Shot</title>
         <item>
-            <title>0.9.1</title>
-            <pubDate>Fri, 02 Oct 2026 21:10:04 +0700</pubDate>
-            <sparkle:version>239</sparkle:version>
-            <sparkle:shortVersionString>0.9.1</sparkle:shortVersionString>
+            <title>0.9.2</title>
+            <pubDate>Fri, 02 Oct 2026 22:21:48 +0700</pubDate>
+            <sparkle:version>241</sparkle:version>
+            <sparkle:shortVersionString>0.9.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -36,23 +36,11 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<p>Trang Giới thiệu thành phim hướng dẫn cho từng công cụ, cửa sổ Cài đặt gọn lại còn sáu thẻ, và bút vẽ giữ đúng nét cong.</p>
+<p>Các phim hướng dẫn trong trang Giới thiệu dễ theo dõi hơn: camera và con trỏ đi cùng nhịp, lần chọn màu nào cũng là màu mới, và phim chụp cửa sổ kể trọn một lượt gửi ảnh qua chat.</p>
 <h2>Giới thiệu</h2>
-<ul><li><strong>Phim cho từng công cụ</strong>: hàng công cụ xếp đúng thứ tự trên thanh công cụ, có phím tắt bên dưới. Bấm một công cụ là xem phim nó làm việc ngay trên vùng vừa chụp: vẽ mũi tên, đường thẳng, nét bút, khung, vòng tròn, tô highlight rồi chọn lại để kéo, đổi cỡ, đổi màu; đánh số kèm ghi chú; viết chữ; làm mờ, che điểm ảnh, làm sáng; cắt ảnh và đọc chữ trong ảnh.</li><li><strong>Phim chụp cửa sổ</strong>: chụp một cửa sổ, kéo thẻ ảnh vào ứng dụng chat, chụp thêm một cửa sổ nữa, rê qua các nút trên thẻ rồi ghim ảnh lên màn hình và kéo đi chỗ khác.</li><li><strong>Đổi phim êm hơn</strong>: chuyển sang công cụ khác, camera lướt chậm tới phim mới rồi phim mới bắt đầu chạy.</li><li><strong>Kiểm tra cập nhật</strong> và <strong>Tự động kiểm tra cập nhật</strong> nằm ngay dưới phim.</li></ul>
-<h2>Trình sửa</h2>
-<ul><li><strong>Bút vẽ giữ đúng nét</strong>: nét cong vẽ nhanh không còn bị bẻ thành góc vuông, vòng tròn vẽ quanh một thứ không còn tự co nhỏ lại.</li></ul>
-<h2>Thẻ ảnh</h2>
-<ul><li><strong>Giữ ⌥ khi kéo để giữ thẻ lại</strong>: kéo ảnh ra khỏi thẻ mà giữ ⌥ lúc bắt đầu kéo thì thẻ vẫn ở lại, kể cả khi đang bật Kéo xong thì đóng thẻ.</li><li><strong>Đi theo con trỏ</strong> (mới, mặc định tắt): dùng nhiều màn hình thì thẻ chuyển sang màn hình đang có con trỏ.</li><li><strong>Xem thẻ trên màn hình thật</strong>: đổi góc hay cỡ thẻ trong Cài đặt là một thẻ mẫu hiện đúng chỗ đó trong vài giây.</li><li><strong>Bốn cỡ thẻ</strong>: thêm cỡ Lớn mới, cỡ Lớn cũ đổi tên thành Rất lớn.</li><li><strong>Thẻ luôn hiện</strong>: bỏ công tắc Hiện thẻ. Chọn Hiện thẻ ở góc trong Sau khi chụp là thẻ hiện, quay màn hình xong thẻ cũng hiện. Nếu trước đây bạn đã tắt công tắc này, thẻ sẽ hiện lại.</li></ul>
-<h2>Cửa sổ Cài đặt</h2>
-<ul><li><strong>Sáu thẻ</strong>: Chung, Sau khi chụp, Thẻ ảnh, Chụp &amp; quay, Phím tắt, Giới thiệu. Chụp ảnh, Hình nền và Quay màn hình gộp vào Chụp &amp; quay. Quyền chuyển xuống cuối thẻ Chung, có thêm dòng Micro.</li><li><strong>Một cỡ cố định</strong>: mỗi mục nằm trong một khung nền mờ, trang dài thì có thanh cuộn mảnh ở mép phải.</li><li><strong>Chung</strong>: Tông màu đổi thành Giao diện; Chạy khi đăng nhập và Ngôn ngữ nằm cạnh nhau; Tiền tố tên tệp hiện sẵn, rê chuột vào thì có nút sửa, Esc để thôi.</li><li><strong>Thẻ ảnh</strong>: Thẻ ở lại trong đổi thành Tự đóng sau: 4 giây, 8 giây hoặc Không.</li><li><strong>Chụp &amp; quay</strong>: ảnh xem trước là một cửa sổ thật, lề vẽ bằng nét đứt; Khoảng lề chỉnh bằng thanh trượt từ 0 đến 150 pt; ô nền to hơn, ba ô một hàng; bảng chọn màu riêng của Shot, có ô nhập mã màu. Chọn nền là ảnh thì Shot hỏi ảnh trước, rê chuột vào ô để bỏ ảnh.</li><li><strong>Bỏ Thu ảnh Retina về 1× và Thêm viền 1px</strong>: ảnh luôn lưu đủ độ phân giải và không có viền.</li></ul>
-<h2>Phím tắt</h2>
-<ul><li><strong>Phím hiện bằng chữ</strong>: Cmd, Shift, Ctrl, Option, Enter. Ô chưa có phím hiện dấu −, phím lún xuống khi bạn đang bấm.</li><li><strong>Đúng thứ tự bấm</strong>: bấm Cmd rồi Shift thì hiện Cmd + Shift, không đảo lại.</li><li><strong>Tối đa 3 phím</strong> cho một phím tắt.</li><li><strong>Thay phím chụp của macOS bằng Shot</strong>: công tắc này nhả hết phím chụp của macOS (⇧⌘3, ⇧⌘4, ⇧⌘5 và các bản có ⌃) và giao cho Shot: ⇧⌘1 Lịch sử chụp, ⇧⌘2 Quét chữ, ⇧⌘3 Chụp cả màn hình, ⇧⌘4 Chụp vùng, ⇧⌘5 Quay vùng, ⇧⌘6 Chụp cửa sổ, ⌃⇧4 Chụp lại vùng cũ, ⌃⇧5 Quay cả màn hình. Tắt đi là trả lại cho macOS, phím của Shot về ⌃⇧1 tới ⌃⇧8. Bật hay tắt đều đặt lại phím chụp bạn đã tự đổi. Nếu bạn đã bật công tắc cũ (⇧⌘3 và ⇧⌘4 cho Shot), hãy bật công tắc mới để Shot nhận đủ phím.</li><li><strong>Về mặc định</strong> đưa mọi phím tắt về như lúc cài, kể cả phím chụp.</li><li>Mỗi phím có ghi chú rõ hơn, và hai phím trong trình sửa đổi tên thành Sao chép và Sao chép &amp; Đóng.</li></ul>
-<h2>Quay màn hình</h2>
-<ul><li><strong>Quay được cả cửa sổ của Shot</strong>: Cài đặt, trình sửa, ảnh ghim và thẻ ảnh giờ có trong video. Chỉ lớp làm tối, thanh dừng và nút dừng trên thanh menu bị để ra ngoài.</li></ul>
-<h2>Sửa lỗi</h2>
-<ul><li><strong>Chụp cửa sổ khi ảnh nền máy đã bị dời hoặc xoá</strong>: phần lề lấy nền màn hình thật thay vì để trong suốt.</li><li><strong>Nút trong cột Lịch sử</strong> không còn bị thu nhỏ một nửa khi thẻ ở cỡ lớn.</li></ul>
+<ul><li><strong>Camera tới rồi mới làm</strong>: mỗi bước trong phim chỉ diễn ra khi camera đã tới nơi, con trỏ di chuyển cùng nhịp với camera. Không còn cảnh vẽ khi camera đang lia hay vẽ ngoài khung hình.</li><li><strong>Chọn màu là thấy đổi màu</strong>: mọi công cụ bắt đầu cùng một màu, nên mỗi lần chọn màu đều thấy rõ thay đổi, không còn chọn lại đúng màu đang có.</li><li><strong>Bút vẽ</strong>: vẽ một vòng tròn trịa rồi kéo vào giữa bóng đèn. <strong>Đường thẳng</strong> được làm mảnh lại ở cuối. <strong>Đánh số</strong> và <strong>viết chữ</strong> chọn cỡ chậm rãi hơn.</li><li><strong>Spotlight, cắt ảnh và đọc chữ</strong> không còn góc đen hay viền sáng quanh vùng chụp; khung Huỷ và Áp dụng vừa khít hai nút.</li><li><strong>Phim chụp cửa sổ</strong>: mở ứng dụng chat từ Dock, kéo thẻ ảnh vào thì ảnh nằm chờ trong ô soạn tin, bấm Gửi mới gửi, rồi gõ thêm một câu và gửi tiếp.</li><li><strong>Hàng công cụ</strong> cân lại khoảng trống phía trên và phía dưới.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.9.1/Shot-0.9.1.zip" length="4359960" type="application/octet-stream" sparkle:edSignature="9OKJEUn4J3DlEOppowvEAZdyRn/EapfjboF7XU9XvBAmWqSiiby6W3SrXTOqQ43St7j0x0NpgnDk3F/1mDbFAQ=="/>
+            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.9.2/Shot-0.9.2.zip" length="4404398" type="application/octet-stream" sparkle:edSignature="XLdrjF8lga5+ADGIgVOyUrOcFeJ80L7XcvTLURbCA3vT5IuDaIJljbs0vA4AKWfrqDkqo8ChsZ3JicXOdeApAw=="/>
         </item>
     </channel>
 </rss>
