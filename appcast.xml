@@ -3,10 +3,10 @@
     <channel>
         <title>Shot</title>
         <item>
-            <title>0.9.2</title>
-            <pubDate>Fri, 02 Oct 2026 22:21:48 +0700</pubDate>
-            <sparkle:version>241</sparkle:version>
-            <sparkle:shortVersionString>0.9.2</sparkle:shortVersionString>
+            <title>0.9.3</title>
+            <pubDate>Sat, 03 Oct 2026 01:56:36 +0700</pubDate>
+            <sparkle:version>243</sparkle:version>
+            <sparkle:shortVersionString>0.9.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -36,11 +36,13 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<p>Các phim hướng dẫn trong trang Giới thiệu dễ theo dõi hơn: camera và con trỏ đi cùng nhịp, lần chọn màu nào cũng là màu mới, và phim chụp cửa sổ kể trọn một lượt gửi ảnh qua chat.</p>
+<p>Các phim trong trang Giới thiệu giờ chạy liền một mạch như đang dùng app thật: bấm công cụ nào ở hàng trên, phim đi tiếp từ đúng chỗ đang dừng, giữ nguyên con trỏ, công cụ đang cầm và màu đã chọn.</p>
 <h2>Giới thiệu</h2>
-<ul><li><strong>Camera tới rồi mới làm</strong>: mỗi bước trong phim chỉ diễn ra khi camera đã tới nơi, con trỏ di chuyển cùng nhịp với camera. Không còn cảnh vẽ khi camera đang lia hay vẽ ngoài khung hình.</li><li><strong>Chọn màu là thấy đổi màu</strong>: mọi công cụ bắt đầu cùng một màu, nên mỗi lần chọn màu đều thấy rõ thay đổi, không còn chọn lại đúng màu đang có.</li><li><strong>Bút vẽ</strong>: vẽ một vòng tròn trịa rồi kéo vào giữa bóng đèn. <strong>Đường thẳng</strong> được làm mảnh lại ở cuối. <strong>Đánh số</strong> và <strong>viết chữ</strong> chọn cỡ chậm rãi hơn.</li><li><strong>Spotlight, cắt ảnh và đọc chữ</strong> không còn góc đen hay viền sáng quanh vùng chụp; khung Huỷ và Áp dụng vừa khít hai nút.</li><li><strong>Phim chụp cửa sổ</strong>: mở ứng dụng chat từ Dock, kéo thẻ ảnh vào thì ảnh nằm chờ trong ô soạn tin, bấm Gửi mới gửi, rồi gõ thêm một câu và gửi tiếp.</li><li><strong>Hàng công cụ</strong> cân lại khoảng trống phía trên và phía dưới.</li></ul>
+<ul><li><strong>Một phim liền mạch</strong>: chuyển công cụ là phim đang chạy dừng ngay, con trỏ đi tiếp từ chỗ cũ lên công cụ mới, không mờ dần hay nhảy cảnh. Màu đã chọn được giữ sang phim sau; cỡ nét và cỡ chữ thì phim nào cũng bắt đầu từ cỡ mặc định.</li><li><strong>Dọn nét cũ như trong app</strong>: phim trước còn để lại nét vẽ thì phim sau bấm ⌘A, mỗi nét hiện đường viền mảnh như khi chọn nhiều nét trong app, 2 giây sau mới bấm Delete. Phim trước đã cắt ảnh thì bấm ⌘Z để trả lại. Phim trước không để lại gì thì đi thẳng sang công cụ mới.</li><li><strong>Thấy phím đang bấm</strong>: ⌘A, Delete và ⌘Z hiện ở góc trái dưới bằng chính các phím của thẻ Phím tắt, lún xuống khi bấm, nhả phím ra mới thấy kết quả.</li><li><strong>Camera đứng yên</strong> ở khung nhìn thấy cả vùng chụp và các bảng công cụ, không còn zoom quá gần.</li><li><strong>Con trỏ đi thong thả hơn</strong>: mỗi lần di chuyển, nhất là khi chọn màu, cỡ nét hay cỡ chữ, đều mất đủ thời gian như tay người.</li><li><strong>Nút ‹ ↺ › ở góc phải dưới</strong> để xem phim trước, phát lại và xem phim sau. Lúc phim đang chạy, rê chuột lên phim là nút hiện ra.</li><li><strong>Chọn (V)</strong> vẽ bốn nét ngay trong phim rồi mới chọn từng nét để chỉnh. <strong>Đánh số (N)</strong> giữ cỡ 2 và nằm gọn trong ảnh, số 1 không còn bị cắt ở mép. <strong>Khung (R)</strong> chỉ đổi màu, không làm dày nét.</li><li><strong>Spotlight và cắt ảnh</strong>: phần ảnh quanh vùng sáng, hay ngoài khung cắt, chỉ tối nhẹ, nên vẫn nhìn rõ vùng chụp.</li><li><strong>Phim chụp cửa sổ</strong>: Dock dùng biểu tượng thật của macOS (Finder, Safari, Mail, Tin nhắn, Lịch, Ghi chú, Ảnh), khung chat theo kiểu Tin nhắn, chữ được gõ có lúc ngập ngừng như người thật.</li></ul>
+<h2>Cửa sổ Cài đặt</h2>
+<ul><li><strong>Các thẻ trên cùng cao hơn</strong>, không còn dẹt.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.9.2/Shot-0.9.2.zip" length="4404398" type="application/octet-stream" sparkle:edSignature="XLdrjF8lga5+ADGIgVOyUrOcFeJ80L7XcvTLURbCA3vT5IuDaIJljbs0vA4AKWfrqDkqo8ChsZ3JicXOdeApAw=="/>
+            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.9.3/Shot-0.9.3.zip" length="4462165" type="application/octet-stream" sparkle:edSignature="rtOWjzWeFgA/kc/RR1YFofCsdy9kAnvyBpn0Olz9WIX2aFyhrYCGNk6at5OgSogFkY+ya9hwBhUMPHnMGXL2CQ=="/>
         </item>
     </channel>
 </rss>
