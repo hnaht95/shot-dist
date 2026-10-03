@@ -3,10 +3,10 @@
     <channel>
         <title>Shot</title>
         <item>
-            <title>0.9.3</title>
-            <pubDate>Sat, 03 Oct 2026 01:56:36 +0700</pubDate>
-            <sparkle:version>243</sparkle:version>
-            <sparkle:shortVersionString>0.9.3</sparkle:shortVersionString>
+            <title>0.9.4</title>
+            <pubDate>Sat, 03 Oct 2026 19:46:13 +0700</pubDate>
+            <sparkle:version>246</sparkle:version>
+            <sparkle:shortVersionString>0.9.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -36,13 +36,17 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<p>Các phim trong trang Giới thiệu giờ chạy liền một mạch như đang dùng app thật: bấm công cụ nào ở hàng trên, phim đi tiếp từ đúng chỗ đang dừng, giữ nguyên con trỏ, công cụ đang cầm và màu đã chọn.</p>
+<p>Mũi tên giờ uốn cong được, hẹn giờ chụp đếm ngược ngay trên màn hình, và trang Giới thiệu có thêm phim về ghim ảnh, thẻ ảnh, lịch sử, quay vùng và hẹn giờ.</p>
+<h2>Mũi tên cong</h2>
+<ul><li><strong>Kéo chấm giữa để uốn</strong>: mũi tên đủ dài sẽ hiện một chấm ở giữa, với cả công cụ Mũi tên (A) lẫn Chọn (V). Kéo chấm ra là mũi tên cong thành một cung tròn đều, chấm luôn nằm giữa cung.</li><li><strong>Đầu mũi tên xoay theo nét cong</strong>, nằm cân hai bên thân mũi tên.</li><li>Thả chấm sát đường thẳng thì mũi tên thẳng lại.</li></ul>
+<h2>Hẹn giờ chụp</h2>
+<ul><li><strong>Đếm ngược ngay trên màn hình</strong>, không chỉ trên thanh menu: một thanh giống thanh đang quay hiện dưới chỗ sắp chụp, vùng đã kéo vẫn sáng, phần còn lại tối. Số đếm màu đỏ.</li><li><strong>Tạm dừng được</strong>; bấm ✕ hoặc nhấn Esc là huỷ.</li><li>Thanh và lớp tối mờ đi trước khi chụp nên không lọt vào ảnh.</li><li><strong>Quay vùng có hẹn giờ dùng chung một thanh</strong>: hết giờ, nút ✕ chuyển thành nút dừng quay, đồng hồ chuyển sang đếm thời gian quay.</li><li>Chụp toàn màn hình thì thanh nằm cao hơn, không chạm Dock.</li></ul>
 <h2>Giới thiệu</h2>
-<ul><li><strong>Một phim liền mạch</strong>: chuyển công cụ là phim đang chạy dừng ngay, con trỏ đi tiếp từ chỗ cũ lên công cụ mới, không mờ dần hay nhảy cảnh. Màu đã chọn được giữ sang phim sau; cỡ nét và cỡ chữ thì phim nào cũng bắt đầu từ cỡ mặc định.</li><li><strong>Dọn nét cũ như trong app</strong>: phim trước còn để lại nét vẽ thì phim sau bấm ⌘A, mỗi nét hiện đường viền mảnh như khi chọn nhiều nét trong app, 2 giây sau mới bấm Delete. Phim trước đã cắt ảnh thì bấm ⌘Z để trả lại. Phim trước không để lại gì thì đi thẳng sang công cụ mới.</li><li><strong>Thấy phím đang bấm</strong>: ⌘A, Delete và ⌘Z hiện ở góc trái dưới bằng chính các phím của thẻ Phím tắt, lún xuống khi bấm, nhả phím ra mới thấy kết quả.</li><li><strong>Camera đứng yên</strong> ở khung nhìn thấy cả vùng chụp và các bảng công cụ, không còn zoom quá gần.</li><li><strong>Con trỏ đi thong thả hơn</strong>: mỗi lần di chuyển, nhất là khi chọn màu, cỡ nét hay cỡ chữ, đều mất đủ thời gian như tay người.</li><li><strong>Nút ‹ ↺ › ở góc phải dưới</strong> để xem phim trước, phát lại và xem phim sau. Lúc phim đang chạy, rê chuột lên phim là nút hiện ra.</li><li><strong>Chọn (V)</strong> vẽ bốn nét ngay trong phim rồi mới chọn từng nét để chỉnh. <strong>Đánh số (N)</strong> giữ cỡ 2 và nằm gọn trong ảnh, số 1 không còn bị cắt ở mép. <strong>Khung (R)</strong> chỉ đổi màu, không làm dày nét.</li><li><strong>Spotlight và cắt ảnh</strong>: phần ảnh quanh vùng sáng, hay ngoài khung cắt, chỉ tối nhẹ, nên vẫn nhìn rõ vùng chụp.</li><li><strong>Phim chụp cửa sổ</strong>: Dock dùng biểu tượng thật của macOS (Finder, Safari, Mail, Tin nhắn, Lịch, Ghi chú, Ảnh), khung chat theo kiểu Tin nhắn, chữ được gõ có lúc ngập ngừng như người thật.</li></ul>
+<ul><li><strong>Phim mới</strong> cạnh phim chụp cửa sổ: ghim ảnh lên màn hình, chụp liên tiếp nhiều vùng rồi kéo các thẻ vào khung chat, tìm ảnh cũ trong lịch sử để kéo vào Tin nhắn hay sửa rồi dán, quay màn hình theo vùng, chụp hẹn giờ, và mở ảnh có sẵn từ Finder để đánh số, ghi chú.</li><li><strong>Nút ở góc phim</strong>: lùi, phát hoặc tạm dừng, tiếp. Nút phát lại chỉ hiện khi phim đã chạy hết.</li><li><strong>Phím đang bấm</strong> hiện trong một thanh nhỏ màu tối trên nền mờ, phím bo góc vuông. Phim chụp cửa sổ bấm ⌘⇧4 rồi Space để chọn cửa sổ.</li><li>Phim Mũi tên có cảnh uốn cong mũi tên; phim Chữ bắt đầu ở cỡ 3 rồi xuống cỡ 2; phim Bút dạ quang tô nhanh hơn.</li><li>Chuyển giữa hai nhóm phim trên hàng nút mượt như chuyển giữa các công cụ.</li><li>Ghi chú trong phim viết bằng tiếng Anh cho khớp nội dung các cửa sổ, còn khung chat theo ngôn ngữ của app. Tin nhắn chỉ hiện sau khi người kia gõ xong.</li><li>Thẻ ảnh trong phim không còn lem viền hay có viền trắng khi rê chuột.</li></ul>
 <h2>Cửa sổ Cài đặt</h2>
-<ul><li><strong>Các thẻ trên cùng cao hơn</strong>, không còn dẹt.</li></ul>
+<ul><li><strong>Phim sau khi chụp</strong> (Hiện thẻ ở góc, Mở trình sửa, Sửa trên màn hình): vùng chụp rộng hơn nên ảnh lấp đầy cửa sổ sửa; camera đi chậm, đến gần hơn mà vẫn thấy trọn cửa sổ. Phim mở ở khung đầu, nút phát nằm ở góc, cạnh nút phóng to.</li><li>Chọn góc hiện thẻ bằng các nút bên cạnh ảnh; bỏ các ô mờ ở ba góc còn lại.</li><li>Dòng tác giả gọn trên một hàng, biểu tượng nằm ở mép phải.</li><li><strong>Không còn chú thích nổi</strong> khi rê chuột ở bất cứ đâu trong app; VoiceOver vẫn đọc mô tả.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.9.3/Shot-0.9.3.zip" length="4462165" type="application/octet-stream" sparkle:edSignature="rtOWjzWeFgA/kc/RR1YFofCsdy9kAnvyBpn0Olz9WIX2aFyhrYCGNk6at5OgSogFkY+ya9hwBhUMPHnMGXL2CQ=="/>
+            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.9.4/Shot-0.9.4.zip" length="5089403" type="application/octet-stream" sparkle:edSignature="cC2aJWx5+CC5N5R5rwNlQMqE5g+6X2+2t8SE2qM23cACu8dADChx1awl/ppEv0d2IelvviOxTpgWSMY+hfqpAg=="/>
         </item>
     </channel>
 </rss>
