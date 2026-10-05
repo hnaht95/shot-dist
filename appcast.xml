@@ -3,10 +3,10 @@
     <channel>
         <title>Shot</title>
         <item>
-            <title>0.9.4</title>
-            <pubDate>Sat, 03 Oct 2026 19:46:13 +0700</pubDate>
-            <sparkle:version>246</sparkle:version>
-            <sparkle:shortVersionString>0.9.4</sparkle:shortVersionString>
+            <title>0.9.5</title>
+            <pubDate>Mon, 05 Oct 2026 17:06:26 +0700</pubDate>
+            <sparkle:version>250</sparkle:version>
+            <sparkle:shortVersionString>0.9.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -36,17 +36,15 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<p>Mũi tên giờ uốn cong được, hẹn giờ chụp đếm ngược ngay trên màn hình, và trang Giới thiệu có thêm phim về ghim ảnh, thẻ ảnh, lịch sử, quay vùng và hẹn giờ.</p>
+<p>Bảng lịch sử giờ chọn được nhiều ảnh cùng lúc để kéo đi một lần, mũi tên cong gọn hơn, và các phim trên trang Giới thiệu chạy giống app hơn.</p>
+<h2>Bảng lịch sử</h2>
+<ul><li><strong>Chọn nhiều ảnh</strong>: giữ ⌘ rồi click vào các thẻ, thẻ được chọn có viền xanh. Giữ ⌘ click lại một thẻ để bỏ chọn thẻ đó.</li><li><strong>Kéo cả nhóm</strong>: kéo một thẻ đang được chọn là kéo theo mọi ảnh đã chọn, thả vào Tin nhắn, Finder hay app khác là được tất cả cùng lúc. Kéo một thẻ ngoài nhóm thì chỉ kéo thẻ đó.</li><li>Click thường vẫn mở ảnh trong trình sửa và bỏ các ảnh đang chọn; click vào chỗ trống trong bảng cũng bỏ chọn.</li><li>Menu chuột phải vẫn đủ Sửa ảnh, Mở, Chép và Hiện trong Finder.</li></ul>
 <h2>Mũi tên cong</h2>
-<ul><li><strong>Kéo chấm giữa để uốn</strong>: mũi tên đủ dài sẽ hiện một chấm ở giữa, với cả công cụ Mũi tên (A) lẫn Chọn (V). Kéo chấm ra là mũi tên cong thành một cung tròn đều, chấm luôn nằm giữa cung.</li><li><strong>Đầu mũi tên xoay theo nét cong</strong>, nằm cân hai bên thân mũi tên.</li><li>Thả chấm sát đường thẳng thì mũi tên thẳng lại.</li></ul>
-<h2>Hẹn giờ chụp</h2>
-<ul><li><strong>Đếm ngược ngay trên màn hình</strong>, không chỉ trên thanh menu: một thanh giống thanh đang quay hiện dưới chỗ sắp chụp, vùng đã kéo vẫn sáng, phần còn lại tối. Số đếm màu đỏ.</li><li><strong>Tạm dừng được</strong>; bấm ✕ hoặc nhấn Esc là huỷ.</li><li>Thanh và lớp tối mờ đi trước khi chụp nên không lọt vào ảnh.</li><li><strong>Quay vùng có hẹn giờ dùng chung một thanh</strong>: hết giờ, nút ✕ chuyển thành nút dừng quay, đồng hồ chuyển sang đếm thời gian quay.</li><li>Chụp toàn màn hình thì thanh nằm cao hơn, không chạm Dock.</li></ul>
+<ul><li><strong>Đầu mũi tên nằm vuông trên một đoạn thân thẳng</strong> ở mọi độ dày. Trước đây, nét dày mà cong gắt thì thân mũi tên chạy lấn vào một bên đầu mũi tên.</li><li>Chấm để kéo đầu mũi tên đứng lệch ra theo hướng thân, không che đầu mũi tên.</li></ul>
 <h2>Giới thiệu</h2>
-<ul><li><strong>Phim mới</strong> cạnh phim chụp cửa sổ: ghim ảnh lên màn hình, chụp liên tiếp nhiều vùng rồi kéo các thẻ vào khung chat, tìm ảnh cũ trong lịch sử để kéo vào Tin nhắn hay sửa rồi dán, quay màn hình theo vùng, chụp hẹn giờ, và mở ảnh có sẵn từ Finder để đánh số, ghi chú.</li><li><strong>Nút ở góc phim</strong>: lùi, phát hoặc tạm dừng, tiếp. Nút phát lại chỉ hiện khi phim đã chạy hết.</li><li><strong>Phím đang bấm</strong> hiện trong một thanh nhỏ màu tối trên nền mờ, phím bo góc vuông. Phim chụp cửa sổ bấm ⌘⇧4 rồi Space để chọn cửa sổ.</li><li>Phim Mũi tên có cảnh uốn cong mũi tên; phim Chữ bắt đầu ở cỡ 3 rồi xuống cỡ 2; phim Bút dạ quang tô nhanh hơn.</li><li>Chuyển giữa hai nhóm phim trên hàng nút mượt như chuyển giữa các công cụ.</li><li>Ghi chú trong phim viết bằng tiếng Anh cho khớp nội dung các cửa sổ, còn khung chat theo ngôn ngữ của app. Tin nhắn chỉ hiện sau khi người kia gõ xong.</li><li>Thẻ ảnh trong phim không còn lem viền hay có viền trắng khi rê chuột.</li></ul>
-<h2>Cửa sổ Cài đặt</h2>
-<ul><li><strong>Phim sau khi chụp</strong> (Hiện thẻ ở góc, Mở trình sửa, Sửa trên màn hình): vùng chụp rộng hơn nên ảnh lấp đầy cửa sổ sửa; camera đi chậm, đến gần hơn mà vẫn thấy trọn cửa sổ. Phim mở ở khung đầu, nút phát nằm ở góc, cạnh nút phóng to.</li><li>Chọn góc hiện thẻ bằng các nút bên cạnh ảnh; bỏ các ô mờ ở ba góc còn lại.</li><li>Dòng tác giả gọn trên một hàng, biểu tượng nằm ở mép phải.</li><li><strong>Không còn chú thích nổi</strong> khi rê chuột ở bất cứ đâu trong app; VoiceOver vẫn đọc mô tả.</li></ul>
+<ul><li><strong>Phím đang bấm</strong> hiện trong một khung bo tròn, phẳng, các phím chung một nền; Cmd và Shift viết bằng chữ, nét chữ mảnh hơn. Khung hiện sớm hơn, ở lại lâu hơn và trồi lên từ dưới với một nhịp nảy nhẹ cho dễ thấy.</li><li><strong>Con trỏ giống app</strong>: bàn tay mở khi dừng trên một nét, bàn tay nắm khi nhấn hay kéo nét.</li><li><strong>Phim công cụ Chọn (V)</strong> có thêm cảnh kéo khung chọn cả bốn nét, đổi màu cả nhóm rồi kéo dời cả nhóm.</li><li><strong>Phim Hình chữ nhật (R) và Hình bầu dục (O)</strong> có thêm cảnh tô kín hình đang chọn.</li><li><strong>Phim lịch sử</strong> chọn hai ảnh bằng ⌘-click rồi kéo cả hai vào khung chat. Camera thu hết ra trước khi mở bảng lịch sử, giữ trọn mép phải của bảng và không còn phóng to thu nhỏ liên tục.</li><li>Khung chat trong các phim được phóng gần hơn cho dễ đọc, ô gõ chữ nằm cao hơn đáy khung hình.</li><li>Chuyển từ phim công cụ này sang phim công cụ khác không còn nháy: phim sau bắt đầu đúng khung hình phim trước dừng lại. Phim cảnh làm việc đóng cửa sổ của phim trước rồi camera mới di chuyển.</li><li>Con trỏ trong phim đi chậm như tay người, không còn lướt quá nhanh tới công cụ và cột màu.</li><li>Thẻ ảnh trong các phim hiện ở cỡ Vừa.</li><li>Phim không còn mang theo màu, độ dày hay cỡ chữ bạn dùng lần trước; phim chạy lại từ đầu thì dùng lại đúng màu và độ dày lúc bắt đầu.</li><li>Thanh tuỳ chọn trong phim gập giữa một và hai cột mượt như trên màn hình, nút dưới con trỏ sáng lên như khi rê chuột.</li><li>Phim dừng sớm một phần tư giây trước khi hết nên khung cuối luôn nét. Phim bị khuất một lúc (app bận hay trang bị che) thì chạy tiếp từ chỗ đang dừng, không nhảy cóc.</li><li>Nút trên phim hiện ra từ từ khi phim dừng.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.9.4/Shot-0.9.4.zip" length="5089403" type="application/octet-stream" sparkle:edSignature="cC2aJWx5+CC5N5R5rwNlQMqE5g+6X2+2t8SE2qM23cACu8dADChx1awl/ppEv0d2IelvviOxTpgWSMY+hfqpAg=="/>
+            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.9.5/Shot-0.9.5.zip" length="5236126" type="application/octet-stream" sparkle:edSignature="nf9GQxcLBrL99cTET6Vmh4rX95Un/Ml53nozCy6LvqlN5Y7uFVBkG7Pstp1g6ElXDrXL8N2nfawl1BFXTMn7CQ=="/>
         </item>
     </channel>
 </rss>
