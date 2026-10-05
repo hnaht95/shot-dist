@@ -3,10 +3,10 @@
     <channel>
         <title>Shot</title>
         <item>
-            <title>0.9.5</title>
-            <pubDate>Mon, 05 Oct 2026 17:06:26 +0700</pubDate>
-            <sparkle:version>250</sparkle:version>
-            <sparkle:shortVersionString>0.9.5</sparkle:shortVersionString>
+            <title>0.9.6</title>
+            <pubDate>Mon, 05 Oct 2026 17:29:20 +0700</pubDate>
+            <sparkle:version>252</sparkle:version>
+            <sparkle:shortVersionString>0.9.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -36,15 +36,11 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<p>Bảng lịch sử giờ chọn được nhiều ảnh cùng lúc để kéo đi một lần, mũi tên cong gọn hơn, và các phim trên trang Giới thiệu chạy giống app hơn.</p>
+<p>Sửa lỗi chọn nhiều ảnh bằng ⌘-click trong bảng lịch sử trên một số máy Mac.</p>
 <h2>Bảng lịch sử</h2>
-<ul><li><strong>Chọn nhiều ảnh</strong>: giữ ⌘ rồi click vào các thẻ, thẻ được chọn có viền xanh. Giữ ⌘ click lại một thẻ để bỏ chọn thẻ đó.</li><li><strong>Kéo cả nhóm</strong>: kéo một thẻ đang được chọn là kéo theo mọi ảnh đã chọn, thả vào Tin nhắn, Finder hay app khác là được tất cả cùng lúc. Kéo một thẻ ngoài nhóm thì chỉ kéo thẻ đó.</li><li>Click thường vẫn mở ảnh trong trình sửa và bỏ các ảnh đang chọn; click vào chỗ trống trong bảng cũng bỏ chọn.</li><li>Menu chuột phải vẫn đủ Sửa ảnh, Mở, Chép và Hiện trong Finder.</li></ul>
-<h2>Mũi tên cong</h2>
-<ul><li><strong>Đầu mũi tên nằm vuông trên một đoạn thân thẳng</strong> ở mọi độ dày. Trước đây, nét dày mà cong gắt thì thân mũi tên chạy lấn vào một bên đầu mũi tên.</li><li>Chấm để kéo đầu mũi tên đứng lệch ra theo hướng thân, không che đầu mũi tên.</li></ul>
-<h2>Giới thiệu</h2>
-<ul><li><strong>Phím đang bấm</strong> hiện trong một khung bo tròn, phẳng, các phím chung một nền; Cmd và Shift viết bằng chữ, nét chữ mảnh hơn. Khung hiện sớm hơn, ở lại lâu hơn và trồi lên từ dưới với một nhịp nảy nhẹ cho dễ thấy.</li><li><strong>Con trỏ giống app</strong>: bàn tay mở khi dừng trên một nét, bàn tay nắm khi nhấn hay kéo nét.</li><li><strong>Phim công cụ Chọn (V)</strong> có thêm cảnh kéo khung chọn cả bốn nét, đổi màu cả nhóm rồi kéo dời cả nhóm.</li><li><strong>Phim Hình chữ nhật (R) và Hình bầu dục (O)</strong> có thêm cảnh tô kín hình đang chọn.</li><li><strong>Phim lịch sử</strong> chọn hai ảnh bằng ⌘-click rồi kéo cả hai vào khung chat. Camera thu hết ra trước khi mở bảng lịch sử, giữ trọn mép phải của bảng và không còn phóng to thu nhỏ liên tục.</li><li>Khung chat trong các phim được phóng gần hơn cho dễ đọc, ô gõ chữ nằm cao hơn đáy khung hình.</li><li>Chuyển từ phim công cụ này sang phim công cụ khác không còn nháy: phim sau bắt đầu đúng khung hình phim trước dừng lại. Phim cảnh làm việc đóng cửa sổ của phim trước rồi camera mới di chuyển.</li><li>Con trỏ trong phim đi chậm như tay người, không còn lướt quá nhanh tới công cụ và cột màu.</li><li>Thẻ ảnh trong các phim hiện ở cỡ Vừa.</li><li>Phim không còn mang theo màu, độ dày hay cỡ chữ bạn dùng lần trước; phim chạy lại từ đầu thì dùng lại đúng màu và độ dày lúc bắt đầu.</li><li>Thanh tuỳ chọn trong phim gập giữa một và hai cột mượt như trên màn hình, nút dưới con trỏ sáng lên như khi rê chuột.</li><li>Phim dừng sớm một phần tư giây trước khi hết nên khung cuối luôn nét. Phim bị khuất một lúc (app bận hay trang bị che) thì chạy tiếp từ chỗ đang dừng, không nhảy cóc.</li><li>Nút trên phim hiện ra từ từ khi phim dừng.</li></ul>
+<ul><li><strong>⌘-click chọn được nhiều ảnh trên mọi máy</strong>: trên một số máy, mỗi lần ⌘-click một ảnh thì các ảnh đã chọn trước đó bị bỏ chọn, viền tím chỉ nhảy từ thẻ này sang thẻ khác.</li><li>Nhả phím ⌘ sớm hơn nút chuột một chút vẫn được tính là ⌘-click, không còn mở ảnh ra.</li><li>Bảng nhận ngay cú click đầu tiên, kể cả khi bạn vừa kéo ảnh sang app khác.</li><li>Click vào chỗ trống trong bảng (giữa các thẻ, dưới thẻ cuối) vẫn bỏ chọn; ⌘-click vào chỗ trống thì giữ nguyên các ảnh đã chọn.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.9.5/Shot-0.9.5.zip" length="5236126" type="application/octet-stream" sparkle:edSignature="nf9GQxcLBrL99cTET6Vmh4rX95Un/Ml53nozCy6LvqlN5Y7uFVBkG7Pstp1g6ElXDrXL8N2nfawl1BFXTMn7CQ=="/>
+            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.9.6/Shot-0.9.6.zip" length="5236499" type="application/octet-stream" sparkle:edSignature="fn1fjcpAKN6q6iv+btwzSd7ByWuQdRKGx7sx0yHzH+eQ/5OrKpB35wWLbv42KQXRG6U/YLoJYyFhdBNPd5I4Bw=="/>
         </item>
     </channel>
 </rss>
