@@ -3,10 +3,10 @@
     <channel>
         <title>Shot</title>
         <item>
-            <title>0.9.6</title>
-            <pubDate>Mon, 05 Oct 2026 17:29:20 +0700</pubDate>
-            <sparkle:version>252</sparkle:version>
-            <sparkle:shortVersionString>0.9.6</sparkle:shortVersionString>
+            <title>0.9.7</title>
+            <pubDate>Tue, 06 Oct 2026 18:14:16 +0700</pubDate>
+            <sparkle:version>256</sparkle:version>
+            <sparkle:shortVersionString>0.9.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -36,11 +36,17 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<p>Sửa lỗi chọn nhiều ảnh bằng ⌘-click trong bảng lịch sử trên một số máy Mac.</p>
-<h2>Bảng lịch sử</h2>
-<ul><li><strong>⌘-click chọn được nhiều ảnh trên mọi máy</strong>: trên một số máy, mỗi lần ⌘-click một ảnh thì các ảnh đã chọn trước đó bị bỏ chọn, viền tím chỉ nhảy từ thẻ này sang thẻ khác.</li><li>Nhả phím ⌘ sớm hơn nút chuột một chút vẫn được tính là ⌘-click, không còn mở ảnh ra.</li><li>Bảng nhận ngay cú click đầu tiên, kể cả khi bạn vừa kéo ảnh sang app khác.</li><li>Click vào chỗ trống trong bảng (giữa các thẻ, dưới thẻ cuối) vẫn bỏ chọn; ⌘-click vào chỗ trống thì giữ nguyên các ảnh đã chọn.</li></ul>
+<p>Shot có logo riêng, ⌘C giờ chép và đóng trình sửa, và các phim trên trang Giới thiệu được làm lại.</p>
+<h2>Logo mới</h2>
+<ul><li><strong>Icon của app</strong> là logo riêng của Shot, màu đen trên nền trắng, trông y như nhau dù Mac để giao diện sáng hay tối.</li><li><strong>Icon trên thanh menu</strong> cũng là logo này, tự hiện màu đen hoặc trắng theo màu thanh menu.</li></ul>
+<h2>Phím tắt trong trình sửa</h2>
+<ul><li><strong>⌘C giờ là Sao chép &amp; Đóng</strong>: chép ảnh cùng các nét vẽ, lưu rồi đóng trình sửa. Đây là phím được bấm nhiều nhất sau khi sửa ảnh.</li><li><strong>⇧⌘C để chỉ chép ảnh</strong>, trình sửa vẫn mở để bạn sửa tiếp.</li><li><strong>Enter</strong> vẫn chép và đóng như trước, dù bạn gán Sao chép &amp; Đóng cho phím nào.</li><li>Đang gõ chữ trong ghi chú hay ô chữ thì ⌘C vẫn chỉ chép chữ, không đóng trình sửa.</li><li>Nếu bạn đã tự đổi hai phím này trong Cài đặt, phím của bạn được giữ nguyên.</li><li>Gán được ⌘C cho Sao chép &amp; Đóng sau khi đã chuyển Sao chép sang phím khác. Trước đây app vẫn báo trùng phím.</li></ul>
+<h2>Cửa sổ Cài đặt</h2>
+<ul><li>Ô đang chọn ở phần vị trí và cỡ của thẻ ảnh có màu xám than, giống các công tắc.</li></ul>
+<h2>Giới thiệu</h2>
+<ul><li><strong>Cửa sổ ghi chú trong các phim</strong> được vẽ lại bằng chính app nên nét ở mọi mức phóng to: bảng công việc của một studio thiết kế đang làm nhận diện cho thương hiệu mèo Cocostu. Các việc hiện bằng tiếng Anh, hoặc tiếng Việt xen từ tiếng Anh, theo ngôn ngữ của app.</li><li><strong>Nét vẽ luôn chỉ đúng chỗ</strong>: mũi tên, khung, vòng, số và ghi chú nằm đúng trên nội dung chúng nói tới, ở cả hai ngôn ngữ và trên mọi cỡ màn hình.</li><li><strong>Phim Chọn (V)</strong>: kéo cả bốn nét đi một vòng rồi đặt lại đúng chỗ cũ.</li><li><strong>Phim Đường thẳng (L)</strong>: nét được chọn dày lên một cỡ rồi được kéo xuống khỏi chữ.</li><li><strong>Phim Bút vẽ (D)</strong>: vòng tròn vẽ tay tinh nghịch hơn và nằm cân giữa bóng đèn.</li><li><strong>Phim Bút dạ quang (H)</strong>: dải thứ hai màu tím.</li><li><strong>Phim Đánh số (N)</strong>: số nằm ở cuối mỗi thẻ, ghi chú mở ngay dưới số, bằng tiếng Việt là "Gửi trước thứ 6", rồi đổi sang màu xanh lá.</li><li><strong>Phim Chữ (T)</strong>: đổi màu xong thì click ra ngoài, ghi chú hiện gọn, không còn chấm và vạch chọn.</li><li><strong>Phim Cắt ảnh (C)</strong>: vùng cắt giữ trọn avatar mèo và các thẻ.</li><li><strong>Phim mở ảnh bằng Shot</strong>: danh sách bộ màu cuộn mượt từng nhịp và dừng lại xem một màu; tên sản phẩm được tô hồng; cảnh cuối giữ trọn cửa sổ.</li><li><strong>Phim ghi màn hình</strong>: cảnh phóng gần chỉ thấy phần bên trong cửa sổ.</li><li><strong>Đoạn chat trong phim</strong> tự nhiên hơn; khung chat hiện trọn cửa sổ, hoặc cắt gọn và phóng gần vào cuộc trò chuyện.</li><li>Chuyển sang phim khác không còn làm cửa sổ ghi chú nháy, và bàn tay không còn nháy khi con trỏ lướt qua tay nắm của nét.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.9.6/Shot-0.9.6.zip" length="5236499" type="application/octet-stream" sparkle:edSignature="fn1fjcpAKN6q6iv+btwzSd7ByWuQdRKGx7sx0yHzH+eQ/5OrKpB35wWLbv42KQXRG6U/YLoJYyFhdBNPd5I4Bw=="/>
+            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.9.7/Shot-0.9.7.zip" length="4972994" type="application/octet-stream" sparkle:edSignature="9DYtd1URQQ5lyysUKoI104tLie2jC69b12pRTZjsuUjKnRrD0PFaqQGjVWk+12tuXKaIq3NCnIJr2U9FP5qoAg=="/>
         </item>
     </channel>
 </rss>
