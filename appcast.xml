@@ -3,10 +3,10 @@
     <channel>
         <title>Shot</title>
         <item>
-            <title>0.9.7</title>
-            <pubDate>Tue, 06 Oct 2026 18:14:16 +0700</pubDate>
-            <sparkle:version>256</sparkle:version>
-            <sparkle:shortVersionString>0.9.7</sparkle:shortVersionString>
+            <title>0.9.8</title>
+            <pubDate>Wed, 07 Oct 2026 20:26:23 +0700</pubDate>
+            <sparkle:version>260</sparkle:version>
+            <sparkle:shortVersionString>0.9.8</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -36,17 +36,21 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<p>Shot có logo riêng, ⌘C giờ chép và đóng trình sửa, và các phim trên trang Giới thiệu được làm lại.</p>
-<h2>Logo mới</h2>
-<ul><li><strong>Icon của app</strong> là logo riêng của Shot, màu đen trên nền trắng, trông y như nhau dù Mac để giao diện sáng hay tối.</li><li><strong>Icon trên thanh menu</strong> cũng là logo này, tự hiện màu đen hoặc trắng theo màu thanh menu.</li></ul>
-<h2>Phím tắt trong trình sửa</h2>
-<ul><li><strong>⌘C giờ là Sao chép &amp; Đóng</strong>: chép ảnh cùng các nét vẽ, lưu rồi đóng trình sửa. Đây là phím được bấm nhiều nhất sau khi sửa ảnh.</li><li><strong>⇧⌘C để chỉ chép ảnh</strong>, trình sửa vẫn mở để bạn sửa tiếp.</li><li><strong>Enter</strong> vẫn chép và đóng như trước, dù bạn gán Sao chép &amp; Đóng cho phím nào.</li><li>Đang gõ chữ trong ghi chú hay ô chữ thì ⌘C vẫn chỉ chép chữ, không đóng trình sửa.</li><li>Nếu bạn đã tự đổi hai phím này trong Cài đặt, phím của bạn được giữ nguyên.</li><li>Gán được ⌘C cho Sao chép &amp; Đóng sau khi đã chuyển Sao chép sang phím khác. Trước đây app vẫn báo trùng phím.</li></ul>
-<h2>Cửa sổ Cài đặt</h2>
-<ul><li>Ô đang chọn ở phần vị trí và cỡ của thẻ ảnh có màu xám than, giống các công tắc.</li></ul>
-<h2>Giới thiệu</h2>
-<ul><li><strong>Cửa sổ ghi chú trong các phim</strong> được vẽ lại bằng chính app nên nét ở mọi mức phóng to: bảng công việc của một studio thiết kế đang làm nhận diện cho thương hiệu mèo Cocostu. Các việc hiện bằng tiếng Anh, hoặc tiếng Việt xen từ tiếng Anh, theo ngôn ngữ của app.</li><li><strong>Nét vẽ luôn chỉ đúng chỗ</strong>: mũi tên, khung, vòng, số và ghi chú nằm đúng trên nội dung chúng nói tới, ở cả hai ngôn ngữ và trên mọi cỡ màn hình.</li><li><strong>Phim Chọn (V)</strong>: kéo cả bốn nét đi một vòng rồi đặt lại đúng chỗ cũ.</li><li><strong>Phim Đường thẳng (L)</strong>: nét được chọn dày lên một cỡ rồi được kéo xuống khỏi chữ.</li><li><strong>Phim Bút vẽ (D)</strong>: vòng tròn vẽ tay tinh nghịch hơn và nằm cân giữa bóng đèn.</li><li><strong>Phim Bút dạ quang (H)</strong>: dải thứ hai màu tím.</li><li><strong>Phim Đánh số (N)</strong>: số nằm ở cuối mỗi thẻ, ghi chú mở ngay dưới số, bằng tiếng Việt là "Gửi trước thứ 6", rồi đổi sang màu xanh lá.</li><li><strong>Phim Chữ (T)</strong>: đổi màu xong thì click ra ngoài, ghi chú hiện gọn, không còn chấm và vạch chọn.</li><li><strong>Phim Cắt ảnh (C)</strong>: vùng cắt giữ trọn avatar mèo và các thẻ.</li><li><strong>Phim mở ảnh bằng Shot</strong>: danh sách bộ màu cuộn mượt từng nhịp và dừng lại xem một màu; tên sản phẩm được tô hồng; cảnh cuối giữ trọn cửa sổ.</li><li><strong>Phim ghi màn hình</strong>: cảnh phóng gần chỉ thấy phần bên trong cửa sổ.</li><li><strong>Đoạn chat trong phim</strong> tự nhiên hơn; khung chat hiện trọn cửa sổ, hoặc cắt gọn và phóng gần vào cuộc trò chuyện.</li><li>Chuyển sang phim khác không còn làm cửa sổ ghi chú nháy, và bàn tay không còn nháy khi con trỏ lướt qua tay nắm của nét.</li></ul>
+<p>Shot giữ ảnh của bạn an toàn hơn khi lưu, nhẹ hơn khi chạy lâu ngày, và sửa nhiều chỗ trong trình sửa, phím tắt và quay màn hình.</p>
+<h2>Lưu ảnh an toàn hơn</h2>
+<ul><li><strong>Thư mục lưu không còn</strong> (đổi tên, xoá, hay ổ ngoài đã rút): Shot tạo lại thư mục, hoặc giữ ảnh trong thư mục riêng của Shot và báo cho bạn, kèm nút Hiện trong Finder. Trước đây ảnh không được lưu và app báo nhầm là không mã hoá được.</li><li>Chụp hai lần trong cùng một giây không còn trùng tên làm mất ảnh trước.</li><li><strong>Mở ảnh bằng Shot rồi bấm Xong</strong>: ảnh giữ ngày chụp, vị trí GPS và màu P3, và được lưu ở chất lượng cao.</li><li>Sửa ảnh .jpeg từ Lịch sử chụp: ảnh được lưu đúng dạng JPEG.</li><li>Ảnh xám và ảnh CMYK nhận đúng nét màu, lưu và chép được.</li><li>Góc và bóng trong suốt của ảnh chụp cửa sổ không còn đậm dần sau mỗi lần sửa.</li><li><strong>Xoá hết</strong> trong Lịch sử chụp không xoá video đang quay. Ảnh mở từ Finder chỉ rời danh sách, tệp vẫn ở nguyên chỗ.</li><li>Đã tắt Chép vào bộ nhớ tạm thì bấm Xong trong trình sửa cũng không chép ảnh.</li><li>Lưu thành… không được thì Shot báo lý do.</li></ul>
+<h2>Nhẹ hơn khi chạy lâu ngày</h2>
+<ul><li>Không còn giữ lại bộ nhớ sau mỗi lần kéo chọn vùng, hay khi đóng trình sửa ngay sau khi đổi cỡ.</li><li>Thẻ ảnh của một vùng nhỏ không còn giữ cả màn hình trong bộ nhớ.</li><li>Shot tự tìm bản mới ngay khi mở, không cần mở trang Giới thiệu.</li></ul>
+<h2>Trình sửa</h2>
+<ul><li><strong>Mũi tên của khung chữ</strong> giữ đúng tỉ lệ khi đổi cỡ chữ: kéo ngắn nhất ở cỡ lớn thì sang cỡ nhỏ vẫn ngắn nhất.</li><li>Chữ vừa gõ xong cầm kéo được ngay với tay nắm, và con trỏ không còn chập chờn khi lướt qua chữ.</li><li>⌘C hay ⇧⌘C khi đang đặt khung cắt: Shot cắt trước, không lưu hay chép ảnh chưa cắt.</li><li>⇧⌘C khi đang gõ chữ: chép cả chữ đang gõ.</li><li>⌘Z hoàn tác được thao tác cắt ảnh, ⇧⌘Z làm lại được.</li><li>Bấm chọn một nét mà không kéo không còn thêm một bước hoàn tác rỗng.</li><li>Đổi màu hay cỡ khi đang viết ghi chú: ghi chú nhận ngay, cùng màu với số của nó.</li><li>Chọn cùng lúc mũi tên và bút dạ quang rồi đổi độ dày: nét dạ quang giữ độ dày của bút dạ quang.</li><li>Cắt ảnh bỏ mất một số thì ghi chú của số đó cũng đi theo.</li></ul>
+<h2>Phím tắt</h2>
+<ul><li>Đang ghi phím mới mà bấm tổ hợp Shot đang dùng: Shot báo nó đang dùng cho việc gì, thay vì mở chế độ chụp.</li><li>Phím tắt bị app khác giữ: Cài đặt báo ngay dưới phím đó.</li><li>Phím chụp không nhận ⌘ cộng một phím (như ⌘V, ⌘Q), vì đó là phím chung của mọi app.</li><li><strong>Thay phím chụp của macOS</strong>: ghi chú báo khi có phím không ai nhận; Về mặc định trả phím cho macOS; tắt công tắc không còn làm phím trình sửa trùng phím chụp.</li></ul>
+<h2>Quay màn hình</h2>
+<ul><li>Ổ đĩa đầy giữa lúc quay: Shot dừng và báo lỗi, thay vì có thể bị thoát đột ngột khi bấm Dừng.</li><li>Chụp trong lúc đang quay vùng: lớp tối quanh vùng quay và dải điều khiển không lọt vào ảnh, chụp cửa sổ cũng không nhắm nhầm vào chúng.</li><li>Máy không có micro mà bật Thu micro: Shot hỏi để quay không có micro, thay vì lần nào cũng hỏng.</li><li>Thông báo lỗi khi chụp và khi quay hiện theo ngôn ngữ của app. Hộp xin quyền micro có tiếng Việt khi macOS để tiếng Việt.</li></ul>
+<h2>Cài đặt và Giới thiệu</h2>
+<ul><li><strong>Thanh Khoảng lề</strong> theo kiểu của Peek: tên và số nằm ngay trong thanh.</li><li>Đổi ngôn ngữ thì menu của Shot đổi theo ngay.</li><li>Trên màn MacBook, cửa sổ trong các phim không còn bị thẻ ảnh che, và bàn tay di chuyển thong thả hơn.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.9.7/Shot-0.9.7.zip" length="4972994" type="application/octet-stream" sparkle:edSignature="9DYtd1URQQ5lyysUKoI104tLie2jC69b12pRTZjsuUjKnRrD0PFaqQGjVWk+12tuXKaIq3NCnIJr2U9FP5qoAg=="/>
+            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.9.8/Shot-0.9.8.zip" length="5014909" type="application/octet-stream" sparkle:edSignature="LIV34VyyYR30rbrALc0bFmi5iGhXpwb6cadSHu8Qjwqx6tklAanorpXWq+sU5x3rk53y6Fimi9bxK/+/EE2eBw=="/>
         </item>
     </channel>
 </rss>
