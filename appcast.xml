@@ -3,10 +3,10 @@
     <channel>
         <title>Shot</title>
         <item>
-            <title>0.9.8</title>
-            <pubDate>Wed, 07 Oct 2026 20:26:23 +0700</pubDate>
-            <sparkle:version>260</sparkle:version>
-            <sparkle:shortVersionString>0.9.8</sparkle:shortVersionString>
+            <title>0.9.9</title>
+            <pubDate>Thu, 08 Oct 2026 00:01:36 +0700</pubDate>
+            <sparkle:version>262</sparkle:version>
+            <sparkle:shortVersionString>0.9.9</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -36,21 +36,15 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<p>Shot giữ ảnh của bạn an toàn hơn khi lưu, nhẹ hơn khi chạy lâu ngày, và sửa nhiều chỗ trong trình sửa, phím tắt và quay màn hình.</p>
-<h2>Lưu ảnh an toàn hơn</h2>
-<ul><li><strong>Thư mục lưu không còn</strong> (đổi tên, xoá, hay ổ ngoài đã rút): Shot tạo lại thư mục, hoặc giữ ảnh trong thư mục riêng của Shot và báo cho bạn, kèm nút Hiện trong Finder. Trước đây ảnh không được lưu và app báo nhầm là không mã hoá được.</li><li>Chụp hai lần trong cùng một giây không còn trùng tên làm mất ảnh trước.</li><li><strong>Mở ảnh bằng Shot rồi bấm Xong</strong>: ảnh giữ ngày chụp, vị trí GPS và màu P3, và được lưu ở chất lượng cao.</li><li>Sửa ảnh .jpeg từ Lịch sử chụp: ảnh được lưu đúng dạng JPEG.</li><li>Ảnh xám và ảnh CMYK nhận đúng nét màu, lưu và chép được.</li><li>Góc và bóng trong suốt của ảnh chụp cửa sổ không còn đậm dần sau mỗi lần sửa.</li><li><strong>Xoá hết</strong> trong Lịch sử chụp không xoá video đang quay. Ảnh mở từ Finder chỉ rời danh sách, tệp vẫn ở nguyên chỗ.</li><li>Đã tắt Chép vào bộ nhớ tạm thì bấm Xong trong trình sửa cũng không chép ảnh.</li><li>Lưu thành… không được thì Shot báo lý do.</li></ul>
-<h2>Nhẹ hơn khi chạy lâu ngày</h2>
-<ul><li>Không còn giữ lại bộ nhớ sau mỗi lần kéo chọn vùng, hay khi đóng trình sửa ngay sau khi đổi cỡ.</li><li>Thẻ ảnh của một vùng nhỏ không còn giữ cả màn hình trong bộ nhớ.</li><li>Shot tự tìm bản mới ngay khi mở, không cần mở trang Giới thiệu.</li></ul>
-<h2>Trình sửa</h2>
-<ul><li><strong>Mũi tên của khung chữ</strong> giữ đúng tỉ lệ khi đổi cỡ chữ: kéo ngắn nhất ở cỡ lớn thì sang cỡ nhỏ vẫn ngắn nhất.</li><li>Chữ vừa gõ xong cầm kéo được ngay với tay nắm, và con trỏ không còn chập chờn khi lướt qua chữ.</li><li>⌘C hay ⇧⌘C khi đang đặt khung cắt: Shot cắt trước, không lưu hay chép ảnh chưa cắt.</li><li>⇧⌘C khi đang gõ chữ: chép cả chữ đang gõ.</li><li>⌘Z hoàn tác được thao tác cắt ảnh, ⇧⌘Z làm lại được.</li><li>Bấm chọn một nét mà không kéo không còn thêm một bước hoàn tác rỗng.</li><li>Đổi màu hay cỡ khi đang viết ghi chú: ghi chú nhận ngay, cùng màu với số của nó.</li><li>Chọn cùng lúc mũi tên và bút dạ quang rồi đổi độ dày: nét dạ quang giữ độ dày của bút dạ quang.</li><li>Cắt ảnh bỏ mất một số thì ghi chú của số đó cũng đi theo.</li></ul>
-<h2>Phím tắt</h2>
-<ul><li>Đang ghi phím mới mà bấm tổ hợp Shot đang dùng: Shot báo nó đang dùng cho việc gì, thay vì mở chế độ chụp.</li><li>Phím tắt bị app khác giữ: Cài đặt báo ngay dưới phím đó.</li><li>Phím chụp không nhận ⌘ cộng một phím (như ⌘V, ⌘Q), vì đó là phím chung của mọi app.</li><li><strong>Thay phím chụp của macOS</strong>: ghi chú báo khi có phím không ai nhận; Về mặc định trả phím cho macOS; tắt công tắc không còn làm phím trình sửa trùng phím chụp.</li></ul>
-<h2>Quay màn hình</h2>
-<ul><li>Ổ đĩa đầy giữa lúc quay: Shot dừng và báo lỗi, thay vì có thể bị thoát đột ngột khi bấm Dừng.</li><li>Chụp trong lúc đang quay vùng: lớp tối quanh vùng quay và dải điều khiển không lọt vào ảnh, chụp cửa sổ cũng không nhắm nhầm vào chúng.</li><li>Máy không có micro mà bật Thu micro: Shot hỏi để quay không có micro, thay vì lần nào cũng hỏng.</li><li>Thông báo lỗi khi chụp và khi quay hiện theo ngôn ngữ của app. Hộp xin quyền micro có tiếng Việt khi macOS để tiếng Việt.</li></ul>
-<h2>Cài đặt và Giới thiệu</h2>
-<ul><li><strong>Thanh Khoảng lề</strong> theo kiểu của Peek: tên và số nằm ngay trong thanh.</li><li>Đổi ngôn ngữ thì menu của Shot đổi theo ngay.</li><li>Trên màn MacBook, cửa sổ trong các phim không còn bị thẻ ảnh che, và bàn tay di chuyển thong thả hơn.</li></ul>
+<p>Cài đặt gọn gàng và dễ nhìn hơn, cùng vài tuỳ chọn mới cho ảnh chụp cửa sổ và thẻ ảnh.</p>
+<h2>Cài đặt</h2>
+<ul><li>Các tab nằm chung trong một khung. Đường kẻ dưới tab mờ hơn và ẩn đi khi cuộn trang.</li><li>Trang cuộn tới cuối không còn để trống nhiều phía dưới.</li><li><strong>Cỡ thẻ ảnh</strong> giờ là thanh trượt: kéo tới cỡ bất kỳ từ 240 đến 400 điểm, thay vì bốn cỡ cố định.</li><li>Số trên thanh trượt chuyển chỗ mượt mà, không nhảy.</li><li>Các ô chọn (góc thẻ, cỡ) có kiểu mới, sáng và nhẹ hơn.</li></ul>
+<h2>Chụp cửa sổ</h2>
+<ul><li><strong>Nền mặc định là hình nền máy</strong>, đúng phần nằm sau cửa sổ. Trong suốt chuyển xuống cuối danh sách.</li><li>Ảnh xem trước cho thấy vùng sẽ chụp bằng cách làm tối phần bên ngoài, thay cho nét đứt.</li><li>Bỏ ảnh riêng đang dùng làm nền thì nền quay về hình nền máy.</li></ul>
+<h2>Giới thiệu</h2>
+<ul><li>Rê chuột lên hàng công cụ: tên công cụ hiện trong một khung nhỏ phía trên nút.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.9.8/Shot-0.9.8.zip" length="5014909" type="application/octet-stream" sparkle:edSignature="LIV34VyyYR30rbrALc0bFmi5iGhXpwb6cadSHu8Qjwqx6tklAanorpXWq+sU5x3rk53y6Fimi9bxK/+/EE2eBw=="/>
+            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.9.9/Shot-0.9.9.zip" length="5039676" type="application/octet-stream" sparkle:edSignature="EhGZXCHePeh3l3L4WTqrLogVYRgzPgTi+0lVDag6INSqPzzfmiFU5e/Wv4h1jBlm0reQAVah0AU7rqUcpP2zCw=="/>
         </item>
     </channel>
 </rss>
