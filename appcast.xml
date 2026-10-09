@@ -3,10 +3,10 @@
     <channel>
         <title>Shot</title>
         <item>
-            <title>0.9.9</title>
-            <pubDate>Thu, 08 Oct 2026 00:01:36 +0700</pubDate>
-            <sparkle:version>262</sparkle:version>
-            <sparkle:shortVersionString>0.9.9</sparkle:shortVersionString>
+            <title>0.9.10</title>
+            <pubDate>Fri, 09 Oct 2026 11:32:35 +0700</pubDate>
+            <sparkle:version>264</sparkle:version>
+            <sparkle:shortVersionString>0.9.10</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -36,15 +36,10 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<p>Cài đặt gọn gàng và dễ nhìn hơn, cùng vài tuỳ chọn mới cho ảnh chụp cửa sổ và thẻ ảnh.</p>
-<h2>Cài đặt</h2>
-<ul><li>Các tab nằm chung trong một khung. Đường kẻ dưới tab mờ hơn và ẩn đi khi cuộn trang.</li><li>Trang cuộn tới cuối không còn để trống nhiều phía dưới.</li><li><strong>Cỡ thẻ ảnh</strong> giờ là thanh trượt: kéo tới cỡ bất kỳ từ 240 đến 400 điểm, thay vì bốn cỡ cố định.</li><li>Số trên thanh trượt chuyển chỗ mượt mà, không nhảy.</li><li>Các ô chọn (góc thẻ, cỡ) có kiểu mới, sáng và nhẹ hơn.</li></ul>
-<h2>Chụp cửa sổ</h2>
-<ul><li><strong>Nền mặc định là hình nền máy</strong>, đúng phần nằm sau cửa sổ. Trong suốt chuyển xuống cuối danh sách.</li><li>Ảnh xem trước cho thấy vùng sẽ chụp bằng cách làm tối phần bên ngoài, thay cho nét đứt.</li><li>Bỏ ảnh riêng đang dùng làm nền thì nền quay về hình nền máy.</li></ul>
-<h2>Giới thiệu</h2>
-<ul><li>Rê chuột lên hàng công cụ: tên công cụ hiện trong một khung nhỏ phía trên nút.</li></ul>
+<p>Sửa lỗi Shot tự tắt khi bấm quay màn hình trên một số máy.</p>
+<ul><li><strong>Quay màn hình</strong>: trên một số máy chạy macOS 26, bấm quay là Shot tắt ngay. Giờ Shot quay bình thường.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.9.9/Shot-0.9.9.zip" length="5039676" type="application/octet-stream" sparkle:edSignature="EhGZXCHePeh3l3L4WTqrLogVYRgzPgTi+0lVDag6INSqPzzfmiFU5e/Wv4h1jBlm0reQAVah0AU7rqUcpP2zCw=="/>
+            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.9.10/Shot-0.9.10.zip" length="5039657" type="application/octet-stream" sparkle:edSignature="an5qiUjaRMUfI8T7zSozAjJIu/m2ittBVz/1JK3UnnpFYFsA/4oXaFt+RwEm0kE6lRhqRR+Him/zT0CEaHXqBQ=="/>
         </item>
     </channel>
 </rss>
