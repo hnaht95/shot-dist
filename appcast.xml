@@ -3,10 +3,10 @@
     <channel>
         <title>Shot</title>
         <item>
-            <title>0.9.10</title>
-            <pubDate>Fri, 09 Oct 2026 11:32:35 +0700</pubDate>
-            <sparkle:version>264</sparkle:version>
-            <sparkle:shortVersionString>0.9.10</sparkle:shortVersionString>
+            <title>0.9.11</title>
+            <pubDate>Mon, 12 Oct 2026 16:58:13 +0700</pubDate>
+            <sparkle:version>267</sparkle:version>
+            <sparkle:shortVersionString>0.9.11</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -36,10 +36,10 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<p>Sửa lỗi Shot tự tắt khi bấm quay màn hình trên một số máy.</p>
-<ul><li><strong>Quay màn hình</strong>: trên một số máy chạy macOS 26, bấm quay là Shot tắt ngay. Giờ Shot quay bình thường.</li></ul>
+<p>Sửa hai lỗi ở bảng Lịch sử chụp.</p>
+<ul><li><strong>Ảnh đã chọn từ lần trước</strong>: ảnh chọn bằng ⌘-bấm giờ được bỏ chọn khi đóng bảng. Trước đây mở lại bảng, chọn ảnh mới rồi kéo ra thì các ảnh chọn từ lần trước cũng bị kéo theo.</li><li><strong>Hai màn hình đặt cạnh nhau</strong>: bảng lịch sử không còn hiện ở màn hình bên phải rồi nhảy sang màn hình đang dùng.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.9.10/Shot-0.9.10.zip" length="5039657" type="application/octet-stream" sparkle:edSignature="an5qiUjaRMUfI8T7zSozAjJIu/m2ittBVz/1JK3UnnpFYFsA/4oXaFt+RwEm0kE6lRhqRR+Him/zT0CEaHXqBQ=="/>
+            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.9.11/Shot-0.9.11.zip" length="5039919" type="application/octet-stream" sparkle:edSignature="MnC9mULCbek92kg3Odc9S5SleQg090/aWT7EAqSHA9qhdzwGu9/NSo/67BSNibUH6IC9X6xM5kAiWcdxkkT4DA=="/>
         </item>
     </channel>
 </rss>
