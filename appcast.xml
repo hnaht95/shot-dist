@@ -3,10 +3,10 @@
     <channel>
         <title>Shot</title>
         <item>
-            <title>0.9.11</title>
-            <pubDate>Mon, 12 Oct 2026 16:58:13 +0700</pubDate>
-            <sparkle:version>267</sparkle:version>
-            <sparkle:shortVersionString>0.9.11</sparkle:shortVersionString>
+            <title>0.9.12</title>
+            <pubDate>Sat, 31 Oct 2026 02:55:28 +0700</pubDate>
+            <sparkle:version>272</sparkle:version>
+            <sparkle:shortVersionString>0.9.12</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -36,10 +36,10 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<p>Sửa hai lỗi ở bảng Lịch sử chụp.</p>
-<ul><li><strong>Ảnh đã chọn từ lần trước</strong>: ảnh chọn bằng ⌘-bấm giờ được bỏ chọn khi đóng bảng. Trước đây mở lại bảng, chọn ảnh mới rồi kéo ra thì các ảnh chọn từ lần trước cũng bị kéo theo.</li><li><strong>Hai màn hình đặt cạnh nhau</strong>: bảng lịch sử không còn hiện ở màn hình bên phải rồi nhảy sang màn hình đang dùng.</li></ul>
+<p>Tìm ảnh bằng Google Lens, báo bản cập nhật ngay trên thanh menu, và sửa lỗi Quét chữ chờ mãi sau khi cập nhật.</p>
+<ul><li><strong>Tìm bằng Google Lens</strong>: khi sửa ngay trên màn hình, bấm nút kính lúp cạnh nút Ghim (hoặc ⌘L) để tìm vùng vừa chụp trên web.</li><li><strong>Báo bản cập nhật</strong>: khi có bản mới, icon Shot trên thanh menu mờ đi và có thêm huy hiệu mũi tên lên, mục trong menu ghi "Cập nhật lên…".</li><li><strong>Quét chữ</strong>: sau khi cập nhật, lần Quét chữ đầu tiên không còn quay "đang đọc" cả phút. Shot chuẩn bị sẵn bộ đọc chữ ngay khi mở.</li><li><strong>Cấp lại quyền một lần</strong>: từ bản này Shot được ký bằng tài khoản nhà phát triển mới, nên macOS sẽ hỏi lại quyền Ghi màn hình (và micro nếu bạn quay có tiếng). Bật lại một lần là xong.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.9.11/Shot-0.9.11.zip" length="5039919" type="application/octet-stream" sparkle:edSignature="MnC9mULCbek92kg3Odc9S5SleQg090/aWT7EAqSHA9qhdzwGu9/NSo/67BSNibUH6IC9X6xM5kAiWcdxkkT4DA=="/>
+            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.9.12/Shot-0.9.12.zip" length="4986480" type="application/octet-stream" sparkle:edSignature="YCpFfal/CtcaPYtQQFQzhpRJjo2is6ooiPz5+93JqdrU8x9VmCjAQj17R0MJlzxnOCDsU1jSm8mNce4CKjzlBQ=="/>
         </item>
     </channel>
 </rss>
