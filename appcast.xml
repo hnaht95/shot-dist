@@ -3,10 +3,10 @@
     <channel>
         <title>Shot</title>
         <item>
-            <title>0.9.13</title>
-            <pubDate>Tue, 17 Nov 2026 14:56:51 +0700</pubDate>
-            <sparkle:version>278</sparkle:version>
-            <sparkle:shortVersionString>0.9.13</sparkle:shortVersionString>
+            <title>0.9.14</title>
+            <pubDate>Thu, 19 Nov 2026 23:12:22 +0700</pubDate>
+            <sparkle:version>284</sparkle:version>
+            <sparkle:shortVersionString>0.9.14</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -36,10 +36,10 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<p>Bảng lịch sử tự ẩn khi bấm ra ngoài, cùng vài sửa lỗi nhỏ.</p>
-<ul><li><strong>Bảng lịch sử</strong>: bấm ra bất kỳ đâu ngoài bảng là bảng tự ẩn, không cần bấm nút đóng. Kéo ảnh từ bảng ra ngoài vẫn như cũ.</li><li><strong>⌘C với ảnh mở từ Finder</strong>: bấm ⌘C để xong giờ chép ảnh đã vẽ vào bộ nhớ tạm như mong đợi, dán ngay được.</li><li><strong>Nút Google Lens</strong>: nút kính lúp nhỏ lại, bằng các nút khác trong hàng.</li></ul>
+<p>Chụp cửa sổ đẹp hơn, bảng lịch sử trượt mượt hơn.</p>
+<ul><li><strong>Chụp cửa sổ</strong>: góc bo của cửa sổ không còn bị trắng khi dán vào app chat như Lark.</li><li><strong>Nền khi chụp cửa sổ</strong>: trên macOS mới, nền phía sau cửa sổ không còn bị đen hay trống, mà là hình nền của bạn.</li><li><strong>Sửa ảnh chụp cửa sổ</strong>: trình sửa ảnh giờ hiện cả khung nền quanh cửa sổ, đúng như ảnh được lưu, vẽ được lên cả phần nền.</li><li><strong>Bảng lịch sử</strong>: trượt ra và thu vào có quán tính, nhanh rồi chậm dần, không giật, không rung.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.9.13/Shot-0.9.13.zip" length="5041039" type="application/octet-stream" sparkle:edSignature="MMEfnyDBnADy7QIwcHclwDsd3YGo+XKduKJyELHZ39K9H06NNU6FO3rt5ReNcvesq4spyJRt7cDh06Ii9UfnDQ=="/>
+            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.9.14/Shot-0.9.14.zip" length="5043871" type="application/octet-stream" sparkle:edSignature="VpEC+sg3Fk132Mk3UmN/d3Ol3bUbzGc3o/mei2MKmF1YC6BIXpgys9vK1g/ZCEWpmsc3ig1EgRjjlYlFHF7pBw=="/>
         </item>
     </channel>
 </rss>
