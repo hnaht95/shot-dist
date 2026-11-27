@@ -3,10 +3,10 @@
     <channel>
         <title>Shot</title>
         <item>
-            <title>0.9.15</title>
-            <pubDate>Mon, 23 Nov 2026 10:17:33 +0700</pubDate>
-            <sparkle:version>286</sparkle:version>
-            <sparkle:shortVersionString>0.9.15</sparkle:shortVersionString>
+            <title>0.9.16</title>
+            <pubDate>Fri, 27 Nov 2026 16:01:48 +0700</pubDate>
+            <sparkle:version>289</sparkle:version>
+            <sparkle:shortVersionString>0.9.16</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -36,10 +36,10 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<p>Đọc chữ trong ảnh ổn định hơn.</p>
-<ul><li><strong>Đọc chữ trong ảnh</strong>: sửa lỗi có lúc báo "không có chữ trong vùng này" hoặc "không đọc được chữ" dù vùng chọn có chữ rõ ràng. Lỗi đến từ bộ đọc chữ macOS dựng cho Shot bị hỏng. Giờ Shot tự phát hiện, tự dựng lại và tự mở lại một lần khi bạn không dùng, để tiếng Việt đọc đủ dấu.</li></ul>
+<p>Đọc chữ trong ảnh ổn định hơn, bảng lịch sử không còn giữ bàn phím.</p>
+<ul><li><strong>Đọc chữ trong ảnh</strong>: sửa lỗi đọc sai dấu tiếng Việt hoặc không đọc được sau khi máy dọn ổ đĩa trong lúc Shot đang chạy. Giờ Shot tự đọc lại cho đúng ngay lần đó, rồi tự làm mới khi bạn không dùng.</li><li><strong>Bảng lịch sử</strong>: kéo ảnh từ bảng vào ô chat xong là gõ được ngay, không cần đóng bảng.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.9.15/Shot-0.9.15.zip" length="5051716" type="application/octet-stream" sparkle:edSignature="5WgcTnwKItORTyIFVj6A+oo6PkV3YfBFDOCo6aOyIoUHNSE6+MqD4N3fjzxnO1nedi6QDK3fnxt3hXbhCXgaAA=="/>
+            <enclosure url="https://github.com/hnaht95/shot-dist/releases/download/v0.9.16/Shot-0.9.16.zip" length="5057113" type="application/octet-stream" sparkle:edSignature="G5ye6rYVXJ2cMBDrKrM4pLFvPBw7YwdqGEUNv5HB3JNTgkCUupB7eNU4+2uh6lgRMrE/ekwu0Gu86aY1BGzQAg=="/>
         </item>
     </channel>
 </rss>
